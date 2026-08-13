@@ -1,0 +1,6 @@
+dataset,source,temporal_coverage,spatial_unit,local_path,processing_status,notes
+AORC,NOAA,1979-2025,HUC12,data/raw/aorc/,external,
+Atlas 14,NOAA Atlas 14,benchmark,point/HUC12,data/external/atlas14/,external,
+USGS annual peak streamflow,USGS,gage-dependent,streamgage,data/raw/usgs_peaks/,external,
+NOAA Storm Events,NOAA NCEI,1996-2025,event coordinates,data/raw/storm_events/,external,
+HURDAT2,NOAA NHC,historical,storm tracks,data/external/hurdat2/,external,

@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+geopandas
+shapely
+pyproj
+xarray
+dask
+zarr
+scipy
+requests
+pyyaml
+jupyterlab

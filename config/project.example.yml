@@ -1,0 +1,15 @@
+project:
+  name: Alabama Intense Rainfall & Flood Fact Sheet
+  state: Alabama
+  huc_level: HUC12
+
+analysis:
+  record_start: 1979
+  record_end: 2025
+
+paths:
+  raw_data: data/raw
+  external_data: data/external
+  interim_data: data/interim
+  processed_data: data/processed
+  outputs: outputs

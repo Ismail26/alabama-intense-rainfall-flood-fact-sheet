@@ -1,0 +1,19 @@
+name: alabama-flood-factsheet
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - geopandas
+  - shapely
+  - pyproj
+  - xarray
+  - dask
+  - zarr
+  - scipy
+  - requests
+  - pyyaml
+  - jupyterlab
+  - pip

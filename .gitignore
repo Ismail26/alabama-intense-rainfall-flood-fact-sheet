@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials
+*.pem
+*.key
+credentials.json
+token.json
+secrets.*
+
+# Large raw/intermediate datasets
+data/raw/*
+!data/raw/.gitkeep
+data/external/*
+!data/external/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Common large scientific/geospatial formats
+*.nc
+*.nc4
+*.grib
+*.grb
+*.grib2
+*.zarr/
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.tif
+*.tiff
+*.img
+*.zip
+*.7z
+*.tar
+*.gz
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# GIS temporary files
+*.aux.xml
+*.ovr
+
+# Temporary outputs
+outputs/tmp/
+tmp/
+temp/
+
+# Local configuration overrides
+config/local.yml
+config/local.yaml
