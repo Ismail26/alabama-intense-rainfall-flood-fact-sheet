@@ -1,0 +1,12 @@
+metric,value
+raw NOAA files found,225
+stations parsed successfully,225
+stations that failed reparsing,0
+combined long-table rows,128250
+unique durations,19
+unique recurrence intervals,10
+estimate types,3
+expected rows per station,570
+stations with complete row counts,225
+missing precipitation values,0
+invalid confidence interval ordering,0

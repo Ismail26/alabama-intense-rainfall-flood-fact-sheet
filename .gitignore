@@ -24,9 +24,7 @@ credentials.json
 token.json
 secrets.*
 
-# Large raw/intermediate datasets
-data/raw/*
-!data/raw/.gitkeep
+# Large intermediate datasets
 data/external/*
 !data/external/.gitkeep
 data/interim/*
@@ -73,3 +71,6 @@ config/local.yaml
 # Complete pipeline snapshots are intentionally versioned under Git LFS.
 !outputs/complete_pipeline_outputs/
 !outputs/complete_pipeline_outputs/**
+
+# Selected project source-data folders under data/raw are intentionally versioned.
+!data/raw/**

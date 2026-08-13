@@ -1,0 +1,1 @@
+station_id,station_name,state,latitude,longitude,duration,duration_hours,ari_years,estimate_mm,lower_90_mm,upper_90_mm,confidence_width_mm,lower_difference_mm,upper_difference_mm
