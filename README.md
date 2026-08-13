@@ -4,7 +4,7 @@ A reproducible statewide screening project examining where intense rainfall and 
 
 ## Project purpose
 
-This repository organizes the data-processing workflow, notebooks, scripts, maps, figures, derived tables, and final fact sheet for the Alabama intense-rainfall and flood-risk analysis.
+This repository organizes the data-processing workflow, notebooks, outputs (maps, figures, derived tables, and final fact sheet) for the Alabama intense-rainfall and flood analysis.
 
 The fact sheet summarizes:
 - Long-term intense-rainfall patterns across Alabama HUC-12 watersheds.
@@ -28,8 +28,6 @@ alabama-intense-rainfall-flood-fact-sheet/
 |   |-- interim/
 |   `-- processed/
 |-- notebooks/
-|-- src/
-|-- scripts/
 |-- config/
 |-- metadata/
 |-- outputs/
