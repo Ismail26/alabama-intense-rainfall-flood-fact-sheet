@@ -1,0 +1,6 @@
+component,method,interpretation
+Annual peaks,"USGS annual instantaneous peak streamflow, parameter 00060",Observed maximum instantaneous discharge for each water year.
+Empirical frequency,Weibull plotting position: AEP = rank/(n+1),Transparent period-of-record ranking; maximum resolvable return period is n+1 years.
+LP3 screening,Station-skew log-Pearson Type III fit to positive annual peaks,Statewide screening only; not a formal Bulletin 17C/PeakFQ result.
+Rainfall-flood match,Annual peak date within rainfall window plus drainage-area-dependent post-event buffer,"Temporal and spatial correspondence, not proof of rainfall-only causation."
+Flood reports,NOAA Storm Events flood-related records within a 24h of event windows,Reported impacts; spatial reporting and completeness vary through time.

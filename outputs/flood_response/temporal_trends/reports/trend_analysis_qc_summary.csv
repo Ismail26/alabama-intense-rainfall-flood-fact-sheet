@@ -1,0 +1,11 @@
+metric,value
+analysis_start_year,1979
+analysis_end_year,2025
+analysis_year_count,47
+available_rainfall_durations,"1, 3, 6, 24, 72"
+primary_rainfall_threshold,24h ≥10-year
+primary_flood_threshold,≥10-year
+all_active_peak_gages,398
+fixed_network_gages,59
+fixed_network_rule,coverage plus common-period edge rule
+gage_magnitude_trend_tests,143

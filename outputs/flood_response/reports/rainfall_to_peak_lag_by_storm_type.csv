@@ -1,0 +1,7 @@
+storm_type,public_storm_label,observation_count,median_lag_hours,mean_lag_hours,minimum_lag_hours,maximum_lag_hours,q25_lag_hours,q75_lag_hours
+Tropical cyclone,Tropical cyclone,282,1.0,8.845744680851064,-21.0,134.0,-8.0,14.1875
+Convective,Thunderstorm/convective,412,-4.0,6.349635922330098,-22.0,143.5,-9.0,12.625
+Convective candidate,Possible thunderstorm,287,-7.0,3.731707317073171,-21.0,180.0,-16.0,8.0
+Frontal/extratropical candidate,Possible frontal system,496,-1.0,7.890322580645161,-24.0,144.0,-9.0,16.0625
+Non-tropical heavy rain,Other heavy-rain event,3,-3.0,0.4166666666666667,-6.25,10.5,-4.625,3.75
+Unclassified,Unclassified event,39,-4.0,-0.6410256410256411,-19.0,38.0,-13.0,1.0

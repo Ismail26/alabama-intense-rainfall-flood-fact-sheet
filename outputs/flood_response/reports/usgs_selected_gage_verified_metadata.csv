@@ -1,0 +1,4 @@
+site_no,site_name_verified,agency_code,state_name,county_name,site_type,hydrologic_unit_code,drainage_area_api_sqmi,latitude_api,longitude_api,station_metadata_source
+02401390,BIG CANOE CREEK AT ASHVILLE AL,USGS,Alabama,St. Clair County,Stream,31501060305,141.0,33.8398211305091,-86.2627559369864,USGS modern monitoring-locations API
+02442500,"LUXAPALLILA CREEK AT MILLPORT, AL",USGS,Alabama,Lamar County,Stream,31601050203,247.0,33.5751141618038,-88.0833604981759,USGS modern monitoring-locations API
+03572110,"CROW CREEK AT BASS, AL",USGS,Alabama,Jackson County,Stream,60300010304,131.0,34.93428279978356,-85.91746266280938,USGS modern monitoring-locations API

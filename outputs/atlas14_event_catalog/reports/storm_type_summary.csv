@@ -1,0 +1,7 @@
+storm_type,classification_confidence,event_count,median_maximum_ratio,maximum_ratio,median_affected_hucs
+Convective,Medium,232,1.3595439767393032,3.7798875359284314,17.0
+Convective candidate,Low,102,1.212152676618079,2.385088406021532,16.5
+Frontal/extratropical candidate,Medium–low,70,1.5183093378296604,2.8856274278790304,96.5
+Tropical cyclone,High,67,1.5482593322232532,3.327418307307004,35.0
+Unclassified,Low,55,1.1931778369435613,2.0676885597801666,12.0
+Non-tropical heavy rain,Low,5,1.1795029866943278,2.0673538342963163,11.0

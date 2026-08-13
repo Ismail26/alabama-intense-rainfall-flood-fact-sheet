@@ -1,0 +1,4 @@
+catalog_event_id,site_no,site_name,huc12,drainage_area_sqmi,event_peak_discharge_cfs,event_lp3_screening_return_period_years,event_flood_screening_class,rainfall_to_streamflow_lag_hours,metadata_source
+AL-RF-19901223-0060,03572110,USGS streamgage 03572110,060300010304,131.0,18100.0,1000000.0,>500-year,-1.0,USGS monitoring-location inventory
+AL-RF-20041124-0182,02401390,USGS streamgage 02401390,031501060305,141.0,14800.0,1000000.0,>500-year,8.5,USGS monitoring-location inventory
+AL-RF-20040206-0166,02442500,USGS streamgage 02442500,031601050203,247.0,11000.0,1000000.0,>500-year,15.0,USGS monitoring-location inventory

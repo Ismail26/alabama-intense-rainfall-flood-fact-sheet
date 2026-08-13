@@ -55,6 +55,7 @@ data/interim/*
 *.dbf
 *.prj
 *.cpg
+*.gpkg
 
 # GIS temporary files
 *.aux.xml
