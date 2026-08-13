@@ -1,0 +1,26 @@
+{
+  "project": "Alabama river-network rainfall-flood overlay continuation",
+  "created_utc": "2026-08-06T23:11:04.520644+00:00",
+  "python_version": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "network": {
+    "source": "USGS NLDI NHDPlusV2 flowlines",
+    "upstream_distance_km": 12,
+    "downstream_distance_km": 12,
+    "minimum_gage_record_years": 10,
+    "interpretation": "Gage-supported mainstem corridors; not full-river inference or hydraulic flood extent."
+  },
+  "rainfall_overlay": {
+    "selected_event_id": "AL-RF-19790413-0003",
+    "requested_duration_hours": 24,
+    "used_duration_hours": 24,
+    "background_metric": "average_intensity_mm_per_hour"
+  },
+  "counts": {
+    "eligible_gages": 354,
+    "gages_with_corridors": 354,
+    "unique_reaches": 4494,
+    "selected_event_reaches": 906,
+    "relationship_pairs": 1201
+  }
+}

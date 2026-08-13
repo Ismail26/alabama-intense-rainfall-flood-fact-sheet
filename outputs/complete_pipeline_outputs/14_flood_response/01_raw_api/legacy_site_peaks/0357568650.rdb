@@ -1,0 +1,103 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:05:56 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 0357568650 ALDRIDGE CREEK AT TONEY DRIVE AT HUNTSVILLE, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	0357568650	1996-07-31		1280	C	7.89						
+USGS	0357568650	1996-11-30		356	C	5.05						
+USGS	0357568650	1998-05-07		517	C	5.68						
+USGS	0357568650	1999-06-28		2320	C	9.40						
+USGS	0357568650	2000-04-03		882	C	6.73						
+USGS	0357568650	2001-06-04		758	C	6.39						
+USGS	0357568650	2002-05-04		591	C	5.87						
+USGS	0357568650	2003-05-06		2260	C	9.32						
+USGS	0357568650	2004-03-05		786	C	6.47						
+USGS	0357568650	2004-12-09		357	C	4.95						
+USGS	0357568650	2006-07-28		169	C	4.08						
+USGS	0357568650	2007-08-29		462	C	5.39						
+USGS	0357568650	2008-03-04		372	C	5.01						
+USGS	0357568650	2009-04-02		797	C	6.50						
+USGS	0357568650	2009-12-08		655	C	6.08						
+USGS	0357568650	2010-11-30		563	C	5.77						
+USGS	0357568650	2012-01-11		844	C	6.63						
+USGS	0357568650	2013-07-10	21:40	642	C	6.04						
+USGS	0357568650	2014-04-30		325	C	4.82						
+USGS	0357568650	2015-04-19		370	C	5.00						
+USGS	0357568650	2015-12-25		789	C	6.48						
+USGS	0357568650	2017-08-10		929	C	6.85						
+USGS	0357568650	2018-02-28	19:07	406	C	5.16						
+USGS	0357568650	2019-08-04	17:20	609	C	5.93						
+USGS	0357568650	2020-04-12	19:50	1160	C	7.39						
+USGS	0357568650	2021-03-17	21:10	1030	C	7.10						
+USGS	0357568650	2022-02-17	17:45	310	C	4.76						
+USGS	0357568650	2023-07-21	03:35	554	C	5.74						
+USGS	0357568650	2024-05-27	02:45	390	C	5.09						

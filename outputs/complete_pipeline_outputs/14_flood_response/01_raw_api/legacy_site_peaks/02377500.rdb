@@ -1,0 +1,100 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:00:00 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02377500 STYX RIVER NEAR LOXLEY, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02377500	1926-09-00		27500	2,7,Bd	22.20	Bd					
+USGS	02377500	1952-09-19		1730		7.50						
+USGS	02377500	1953-04-12		1790		7.85						
+USGS	02377500	1953-12-06		14000		19.73						
+USGS	02377500	1955-04-14		2520		10.57						
+USGS	02377500	1956-03-12		1900		8.09						
+USGS	02377500	1957-04-05		7430		17.50						
+USGS	02377500	1958-03-06		1920		8.25						
+USGS	02377500	1959-09-13		3110		11.80						
+USGS	02377500	1960-04-04		3780		13.31						
+USGS	02377500	1961-06-20		4590		14.74						
+USGS	02377500	1962-04-01		4000		13.75						
+USGS	02377500	1963-01-21		1510		6.48						
+USGS	02377500	1964-04-27		7820		17.91						
+USGS	02377500	1965-08-09		1430		5.92						
+USGS	02377500	1965-10-01		5370		16.19						
+USGS	02377500	1967-09-07		3160		12.54						
+USGS	02377500	1967-12-12		830		4.15						
+USGS	02377500	1969-08-19		4320		14.82						
+USGS	02377500	1971-09-06		1500	1							
+USGS	02377500	1973-03-31		3220		12.70						
+USGS	02377500	1974-02-08		3620		13.59						
+USGS	02377500	1975-08-01		19000		20.81						
+USGS	02377500	1975-11-09		3130		12.43						
+USGS	02377500	1977-03-31		1920		7.68						
+USGS	02377500	1989-06-09		27000	2,7	22.09						

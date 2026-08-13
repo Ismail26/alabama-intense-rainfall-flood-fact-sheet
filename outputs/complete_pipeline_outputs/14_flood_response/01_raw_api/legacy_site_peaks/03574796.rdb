@@ -1,0 +1,148 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:05:50 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03574796 WALKER BRANCH NEAR PLEVNA AL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03574796	1902-03-28		62.0		5.68						
+USGS	03574796	1903-05-30		114		6.50						
+USGS	03574796	1904-08-02		25.0		4.98						
+USGS	03574796	1905-06-22		9.00		4.55						
+USGS	03574796	1906-07-14		24.0		4.96						
+USGS	03574796	1907-06-08		18.0		4.83						
+USGS	03574796	1908-04-24		22.0		4.92						
+USGS	03574796	1909-09-22		78.0		5.95						
+USGS	03574796	1909-10-14		19.0		4.85						
+USGS	03574796	1911-04-05		141		6.88						
+USGS	03574796	1912-08-22		217		7.95						
+USGS	03574796	1913-03-13		133		6.77						
+USGS	03574796	1914-07-17		17.0		4.80						
+USGS	03574796	1915-09-30		33.0		5.12						
+USGS	03574796	1915-12-29		101		6.32						
+USGS	03574796	1917-03-23		102		6.33						
+USGS	03574796	1918-07-30		23.0		4.94						
+USGS	03574796	1919-03-05		39.0		5.26						
+USGS	03574796	1920-04-02		98.0		6.27						
+USGS	03574796	1921-04-16		58.0		5.62						
+USGS	03574796	1922-03-01		60.0		5.65						
+USGS	03574796	1923-06-25		55.0		5.57						
+USGS	03574796	1924-06-15		152		7.04						
+USGS	03574796	1924-12-08		8.00		4.50						
+USGS	03574796	1925-11-12		61.0		5.66						
+USGS	03574796	1927-04-10		182		7.47						
+USGS	03574796	1928-07-07		134		6.79						
+USGS	03574796	1929-03-15		183		7.49						
+USGS	03574796	1930-05-19		25.0		4.98						
+USGS	03574796	1930-11-16		14.0		4.73						
+USGS	03574796	1932-03-22		102		6.33						
+USGS	03574796	1933-07-20		52.0		5.52						
+USGS	03574796	1934-08-25		92.0		6.18						
+USGS	03574796	1935-04-05		71.0		5.83						
+USGS	03574796	1936-02-04		63.0		5.70						
+USGS	03574796	1937-04-24		66.0		5.75						
+USGS	03574796	1938-06-19		65.0		5.73						
+USGS	03574796	1939-02-28		132		6.76						
+USGS	03574796	1940-07-20		21.0		4.90						
+USGS	03574796	1941-08-06		51.0		5.50						
+USGS	03574796	1942-06-02		11.0		4.63						
+USGS	03574796	1942-12-29		25.0		4.98						
+USGS	03574796	1944-04-11		91.0		6.17						
+USGS	03574796	1945-08-05		10.0		4.60						
+USGS	03574796	1946-06-16		98.0		6.27						
+USGS	03574796	1947-01-20		66.0		5.75						
+USGS	03574796	1948-02-13		32.0		5.12						
+USGS	03574796	1949-07-14		210		7.86						
+USGS	03574796	1950-07-26		190		7.59						
+USGS	03574796	1951-03-28		59.0		5.63						
+USGS	03574796	1952-03-21		87.0		6.10						
+USGS	03574796	1953-04-30		51.0		5.50						
+USGS	03574796	1954-09-30		39.0		5.26						
+USGS	03574796	1955-05-22		61.0		5.66						
+USGS	03574796	1956-04-15		35.0		5.18						
+USGS	03574796	1957-04-04		66.0		5.75						
+USGS	03574796	1958-06-01		80.0		5.99						
+USGS	03574796	1959-08-25		51.0		5.50						
+USGS	03574796	1960-06-24		30.0		5.08						
+USGS	03574796	1961-03-08		61.0		5.66						
+USGS	03574796	1962-02-23		145		6.94						
+USGS	03574796	1963-03-12		94.0		6.21						
+USGS	03574796	1964-04-07		119		6.57						
+USGS	03574796	1965-03-26		58.0		5.61						
+USGS	03574796	1965-11-21		13.0		4.70						
+USGS	03574796	1967-07-07		21.0		4.90						
+USGS	03574796	1967-12-18		26.0		5.00						
+USGS	03574796	1969-08-04		60.0		5.65						
+USGS	03574796	1970-04-02		28.0		5.04						
+USGS	03574796	1971-07-25		109		6.43						
+USGS	03574796	1972-01-02		108		6.42						
+USGS	03574796	1973-03-16		276		8.67						
+USGS	03574796	1974-08-12		192		7.62						
+USGS	03574796	1974-11-19		41.0		5.54						

@@ -1,0 +1,151 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:06:57 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 07282000 YALOBUSHA R AND TOPASHAW C CA AT CALHOUN CITY, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	07282000	1949-01-04				14.35	3					
+USGS	07282000	1950-02-14				13.42	3					
+USGS	07282000	1951-03-29		23000		15.22	3					
+USGS	07282000	1951-12-21		4570		12.07	3					
+USGS	07282000	1953-02-21		13100		13.38	3					
+USGS	07282000	1954-01-16		3760		9.48	2,3		1954-05-05		11.29	3
+USGS	07282000	1955-03-22		21900		14.18	2,3		1955-03-22	1200	14.19	3
+USGS	07282000	1956-02-04		8600		12.57	3					
+USGS	07282000	1957-02-01		9350		12.70	2,3		1957-02-01	1200	12.71	3
+USGS	07282000	1957-11-14		17100		13.78	3					
+USGS	07282000	1959-02-13		9310		12.95	2,3		1959-02-13	1200	13.00	3
+USGS	07282000	1960-03-03		12900		13.42	3					
+USGS	07282000	1961-02-21		19500		14.88	3					
+USGS	07282000	1961-12-18		13200		14.12	3					
+USGS	07282000	1963-07-15		8380		13.00	3					
+USGS	07282000	1964-04-13		11400		13.40	3					
+USGS	07282000	1965-02-12		10200		13.23	3					
+USGS	07282000	1966-02-11		7270		12.63	2,3		1966-02-11	1200	12.66	3
+USGS	07282000	1967-02-21				11.20	3					
+USGS	07282000	1968-01-10		19000	C	5.02	2,3		1968-01-10	1200	5.57	3
+USGS	07282000	1969-04-14		24500	C	10.17	2,3		1969-04-14	1200	10.39	3
+USGS	07282000	1969-12-30		29300	C	11.57	3					
+USGS	07282000	1971-02-21		28300	C	10.81	3					
+USGS	07282000	1972-05-08		23400	C	21.36	2,6		1972-05-08	1200	21.45	6
+USGS	07282000	1973-03-16		47200	C	24.82	2		1973-03-16	1200	24.90	
+USGS	07282000	1973-11-27		30100	C	21.65	2		1974-05-15		22.15	
+USGS	07282000	1975-03-13		39200	C	23.64	2		1975-03-13	1200	23.74	
+USGS	07282000	1976-03-21		22200	C	19.96	2		1976-03-15		20.59	
+USGS	07282000	1977-03-04		29300	C	23.56	2		1977-03-04	1200	23.69	
+USGS	07282000	1977-11-21		32600	C	21.62	2		1978-05-08		22.56	
+USGS	07282000	1979-01-20		36600	C	22.98	2		1979-01-20	1200	23.18	
+USGS	07282000	1979-11-25		37800	C	23.56	2		1979-11-25	1200	23.79	
+USGS	07282000	1981-03-30		9560	C	17.99	2		1981-03-30	1200	18.03	
+USGS	07282000	1982-04-02		28900	C	22.77	2		1982-04-02	1200	23.13	
+USGS	07282000	1982-12-26		60200	C	25.74	2		1982-12-26	1200	25.75	
+USGS	07282000	1983-12-03		47800	C	24.84	2		1983-12-03	1200	24.99	
+USGS	07282000	1985-02-11		10700	C	19.49	2		1985-02-11	1200	19.77	
+USGS	07282000	1986-03-19		8220	C	17.76	2		1986-06-06		18.89	
+USGS	07282000	1987-02-27		15900	C	21.01	2		1986-11-24		21.57	
+USGS	07282000	1988-04-02		8460	C	18.25	2		1988-04-02	1200	18.28	
+USGS	07282000	1989-02-28		23700	C	21.72	2		1989-06-15		21.90	
+USGS	07282000	1990-02-10		14800	C	20.68	2		1990-02-10	1200	21.32	
+USGS	07282000	1991-05-27		43600	C	24.32	2		1991-05-27	1200	24.34	
+USGS	07282000	1991-12-02		18700	C	22.01	2		1991-12-03		22.64	
+USGS	07282000	1993-04-09		11700	C	20.85						
+USGS	07282000	1994-02-11		26200	C	23.21	2		1994-02-11	1200	23.30	
+USGS	07282000	1995-04-23		20600	C	21.85	2		1995-03-07		22.62	
+USGS	07282000	1996-04-23		19800	C	22.07						
+USGS	07282000	1997-05-03		28800	C	23.95	2,5		1997-05-03	1200	23.95	
+USGS	07282000	1998-03-08		12400	C	20.91	2		1998-03-05		21.07	
+USGS	07282000	1999-01-23		23800	C	23.26	2		1999-01-23	1200	23.26	
+USGS	07282000	2000-04-03		23600	C	23.25						
+USGS	07282000	2001-01-19		19600	C	22.65						
+USGS	07282000	2002-01-24		20500	C	22.60	2		2002-09-27		22.87	
+USGS	07282000	2003-04-07		19100	C	22.48						
+USGS	07282000	2004-02-05		15300	C	21.76						
+USGS	07282000	2004-11-24		14300	C	21.82	2		2004-11-24	1200	21.91	
+USGS	07282000	2006-02-04		10800	C	21.10						
+USGS	07282000	2007-01-05		13800	C	22.07						
+USGS	07282000	2008-04-04		8540	C	20.56						
+USGS	07282000	2009-02-28		20900	C	22.59						
+USGS	07282000	2010-05-02		17300	C	21.80						
+USGS	07282000	2011-04-21		13800	C	21.45						
+USGS	07282000	2012-03-22		10900	C	20.98						
+USGS	07282000	2013-04-11		12700	C	21.62						
+USGS	07282000	2014-04-07	05:00			21.93						
+USGS	07282000	2015-05-25	15:15			21.20						
+USGS	07282000	2015-12-25	21:15			22.62						
+USGS	07282000	2017-04-03	08:30			21.41						
+USGS	07282000	2018-02-22	18:15			22.65						
+USGS	07282000	2019-02-22	12:45			24.14						
+USGS	07282000	2020-02-11	07:00			23.88						
+USGS	07282000	2021-03-31	17:00			24.14						
+USGS	07282000	2022-02-23	10:00			23.37						
+USGS	07282000	2023-02-02	20:00			22.87						
+USGS	07282000	2024-04-10	15:45			24.21						
+USGS	07282000	2025-03-16	01:15			23.63						

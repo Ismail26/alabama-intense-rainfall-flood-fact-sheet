@@ -1,0 +1,7 @@
+figure,question,metric,counting_rule
+Figure 13A,Are major 24-hour rainfall events becoming more frequent?,rainfall_events_24h_ge10yr,One distinct storm per year regardless of HUC-12 footprint.
+Figure 13B,Are major rainfall events affecting more of Alabama?,affected_huc12_percent,Unique qualifying HUC-12s divided by the statewide HUC-12 denominator.
+Figure 13C,Are major measured flood responses becoming more common?,major_flood_rate_per_100_active_gages,Qualifying gage-year annual peaks per 100 gages with a usable peak that year.
+Figure 13D,Are combined extreme-rainfall and major-flood events becoming more frequent?,integrated_rainfall_flood_event_count,One catalog event per year meeting both the rainfall and measured-flood thresholds.
+Figure 14,Do rainfall-event trends differ by accumulation duration?,duration-specific annual storm count,"One distinct storm per duration, year, and cumulative Atlas 14 threshold."
+Figure 15,Which monitored river corridors are supported by gages with changing annual flood peaks?,gage-specific annual-peak magnitude trend,At least 20 annual peaks; line color is inherited only by the gage-supported NLDI corridor.

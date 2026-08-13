@@ -1,0 +1,67 @@
+{
+  "project": "Alabama integrated rainfall-flood response pipeline",
+  "created_utc": "2026-07-23T19:21:02.454056+00:00",
+  "python_version": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "precipitation_inputs": {
+    "event_catalog": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\06_event_catalog\\aorc_atlas14_storm_event_catalog.csv",
+    "event_huc_details": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\06_event_catalog\\aorc_atlas14_event_huc12_details.csv",
+    "aorc_hourly_directory": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\04_hourly_huc12"
+  },
+  "usgs": {
+    "source_used": "Legacy USGS Water Services fallback",
+    "modern_api_root": "https://api.waterdata.usgs.gov/ogcapi/v0",
+    "legacy_fallback_enabled": true,
+    "peak_record_period": [
+      "1900-01-01",
+      "2025-12-31"
+    ],
+    "parameter_code": "00060"
+  },
+  "frequency_screening": {
+    "minimum_empirical_years": 10,
+    "minimum_lp3_years": 20,
+    "return_periods": [
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      200,
+      500
+    ],
+    "formal_bulletin17c": false,
+    "note": "LP3 results are station-skew screening estimates. Formal Bulletin 17C requires PeakFQ/EMA, regional skew, censoring, and influential-low-flood treatment."
+  },
+  "matching": {
+    "pre_event_buffer_days": 1,
+    "post_event_buffer_rule": "1\u20135 days according to drainage area",
+    "major_flood_screening_years": 10
+  },
+  "counts": {
+    "gage_count": 506,
+    "annual_peak_count": 13241,
+    "rainfall_event_count": 531,
+    "rainfall_peak_match_count": 1859,
+    "matched_event_count": 211,
+    "hydrograph_count": 30
+  },
+  "main_outputs": {
+    "integrated_event_catalog": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\04_rainfall_flood_matches\\integrated_rainfall_flood_event_catalog_FINAL.csv",
+    "gage_frequency_summary": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\03_frequency_screening\\gage_flood_frequency_screening_summary.csv",
+    "event_peak_matches": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\04_rainfall_flood_matches\\rainfall_event_annual_peak_matches.csv",
+    "gage_gpkg": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\07_spatial_outputs\\usgs_flood_frequency_gages.gpkg",
+    "huc_gpkg": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\07_spatial_outputs\\huc12_flood_response_summary.gpkg",
+    "figures": [
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_01_statewide_usgs_flood_severity.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_02_huc12_matched_major_flood_frequency.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_03_ranked_integrated_rainfall_flood_events.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_04_rainfall_rarity_vs_flood_severity.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_05_rainfall_to_flood_peak_lag.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_06_representative_rainfall_streamflow_hydrographs.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_07_noaa_flood_report_hotspots.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\14_flood_response\\08_figures\\figure_08_selected_gage_frequency_curves.png"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:00:13 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02383520 COOSAWATTEE RIVER AT PINE CHAPEL, GA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02383520	1938-04-08		34000		30.00	1					
+USGS	02383520	1939-02-16		9680		20.70	1					
+USGS	02383520	1940-07-13		6560	2							
+USGS	02383520	1941-07-06		5290		12.80	1					
+USGS	02383520	1942-02-18		13500		24.20	1					
+USGS	02383520	1942-12-30		23300		27.70	1					
+USGS	02383520	1944-03-30		15900		25.50	1					
+USGS	02383520	1945-02-14		9750		19.50	1					
+USGS	02383520	1946-02-11		32000		29.60	1					
+USGS	02383520	1947-01-21		19400	1							
+USGS	02383520	1948-02-13		11300		23.60	1					
+USGS	02383520	1948-11-29		26700		28.30	1					
+USGS	02383520	1950-03-14		26200		28.30	1					
+USGS	02383520	1951-03-30		40200		30.80	1	1886				
+USGS	02383520	1952-03-12		12300		23.50	1					
+USGS	02383520	1953-01-10		9310		19.50	1					
+USGS	02383520	1954-01-17		35200		29.90	1					
+USGS	02383520	1955-02-08		13800		24.20	1					
+USGS	02383520	1956-04-17		10800		21.80	1					
+USGS	02383520	1957-04-06		24600		27.60	1					
+USGS	02383520	1957-11-19		7980		19.40	1					
+USGS	02383520	1959-02-14		7100		15.90	1					
+USGS	02383520	1960-03-04		9840		20.50	1					
+USGS	02383520	1961-02-26		18200		26.10	1					
+USGS	02383520	1961-12-13		28200		28.25	1					
+USGS	02383520	1963-03-07		21600		26.79	1					
+USGS	02383520	1964-03-26		32000					1964-03-27		29.29	1
+USGS	02383520	1965-03-27		10600		22.90	1					
+USGS	02383520	1966-03-05		18400		26.61	1					
+USGS	02383520	1967-08-25		8820		19.76	1					
+USGS	02383520	1968-01-11		11500					1967-12-23		23.79	1
+USGS	02383520	1969-02-03		15000					1969-02-04		23.79	1
+USGS	02383520	1970-03-21		8680		18.46	1					
+USGS	02383520	1971-01-25		9360					1971-01-26		20.92	1
+USGS	02383520	1972-01-12		10900		23.39	1					
+USGS	02383520	1973-05-29		23200		27.11	1					
+USGS	02383520	1974-01-01		11200					1974-01-02		23.69	1
+USGS	02383520	1975-03-14		7910	2,6				1975-02-05		19.50	1
+USGS	02383520	1976-04-01		14700	6							
+USGS	02383520	1977-03-30		17200	6							
+USGS	02383520	1978-01-26		9770	6	20.00	1					
+USGS	02383520	1979-03-04		24900	6	27.00	1					
+USGS	02383520	1980-03-09		11800	6	22.80	1					
+USGS	02383520	1981-03-31		6180	6	14.70	1					
+USGS	02383520	1982-01-04		19800	6	25.82	1					
+USGS	02383520	1983-04-10		8190	6	20.06	1					
+USGS	02383520	1983-12-04		8250	6	19.65	1					
+USGS	02383520	1985-02-02		5430	6	14.42	1					
+USGS	02383520	1986-02-18		2880	6	8.11	1					
+USGS	02383520	1987-03-01		8720	6	20.69	1					
+USGS	02383520	1988-01-21		4290	6	12.31	1					
+USGS	02383520	1989-03-06		8990	6	21.20	1					
+USGS	02383520	1990-02-17		20600	6	26.06	1					
+USGS	02383520	1991-03-30		8060	6	18.93	1					

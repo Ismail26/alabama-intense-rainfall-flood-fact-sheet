@@ -1,0 +1,95 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 14:59:32 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02369600 YELLOW RIVER NR MILTON, FLA.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02369600	2002-03-08		2720		37.67	2		2002-09-26		40.73	
+USGS	02369600	2003-07-05		7710		41.89	2		2003-07-06		42.47	
+USGS	02369600	2004-09-19		7120		41.52	2		2004-09-16		45.22	
+USGS	02369600	2004-11-29		7200		40.72	2		2005-04-05		44.60	
+USGS	02369600	2006-01-07		4490		39.34	2		2006-01-08		39.63	
+USGS	02369600	2007-04-09		5150		39.90	2		2007-04-09	1200	39.96	
+USGS	02369600	2008-04-10		4980		40.98						
+USGS	02369600	2009-04-01		10100		46.91						
+USGS	02369600	2009-12-19		6950		43.88						
+USGS	02369600	2011-03-16		4280		39.01	2		2011-09-05		39.85	
+USGS	02369600	2012-09-09		5700		40.80	2		2012-09-10		40.90	
+USGS	02369600	2013-02-28		5730		42.14	2		2013-03-01		42.41	
+USGS	02369600	2014-05-03		7850		44.93	2		2014-05-03	1200	44.96	
+USGS	02369600	2014-12-28		4480		40.51						
+USGS	02369600	2015-12-28		7360	2	44.59						
+USGS	02369600	2020-09-19	05:45	9470	2	48.18						
+USGS	02369600	2021-04-28	05:59	5070		41.92						
+USGS	02369600	2022-05-31	00:44	4240								
+USGS	02369600	2023-01-28	04:44	3970								
+USGS	02369600	2024-05-23	00:30	4520		40.82						
+USGS	02369600	2025-01-03	14:15	3340					2024-11-20	0400	39.44	

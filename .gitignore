@@ -69,3 +69,7 @@ temp/
 # Local configuration overrides
 config/local.yml
 config/local.yaml
+
+# Complete pipeline snapshots are intentionally versioned under Git LFS.
+!outputs/complete_pipeline_outputs/
+!outputs/complete_pipeline_outputs/**

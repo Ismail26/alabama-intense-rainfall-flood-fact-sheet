@@ -1,0 +1,119 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:00:40 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02394820 EUHARLEE CREEK AT US 278, AT ROCKMART, GA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02394820	1961-02-21		5920	7	14.20						
+USGS	02394820	1974-04-04		5500	7	13.80						
+USGS	02394820	1979-03-04		7000	7	15.00		1886				
+USGS	02394820	1983-12-06		1760		8.33						
+USGS	02394820	1985-05-03		1860		8.55						
+USGS	02394820	1986-08-09		636		4.76						
+USGS	02394820	1987-02-28		1380		7.48						
+USGS	02394820	1988-01-20		1770		8.37						
+USGS	02394820	1989-07-20		1840		8.50						
+USGS	02394820	1990-03-16		3090		10.43						
+USGS	02394820	1991-03-29		1410		7.55						
+USGS	02394820	1991-11-21		1460		7.67						
+USGS	02394820	1993-01-12		2690		9.84						
+USGS	02394820	1994-03-28		1250		7.13						
+USGS	02394820	1995-03-08		2060		8.93						
+USGS	02394820	1995-10-05		3290		10.71						
+USGS	02394820	1997-05-03		2610		9.74						
+USGS	02394820	1998-02-04		2530		9.63						
+USGS	02394820	1999-07-12		785		5.49						
+USGS	02394820	2000-04-04		1020		6.43						
+USGS	02394820	2001-03-20		2010		8.84						
+USGS	02394820	2002-01-20		1540		7.85						
+USGS	02394820	2003-03-06		3390		10.85						
+USGS	02394820	2004-09-16		1860		8.55						
+USGS	02394820	2005-03-31		1520		7.82						
+USGS	02394820	2006-03-21		1110		6.71						
+USGS	02394820	2007-00-00		703	4,Bm	5.10	4,Bm					
+USGS	02394820	2008-00-00		703	4,Bm	5.10	4,Bm					
+USGS	02394820	2009-01-06		1910		8.80						
+USGS	02394820	2010-01-25		2830		10.29						
+USGS	02394820	2011-03-09	15:45	1980		9.44						
+USGS	02394820	2012-03-03	07:45	862		6.16						
+USGS	02394820	2013-08-07	21:52	1380		8.21						
+USGS	02394820	2014-04-07	10:30	3560		10.38						
+USGS	02394820	2015-01-04		3800	2	10.53						
+USGS	02394820	2015-12-24				10.76						
+USGS	02394820	2017-09-12		1130		7.29						
+USGS	02394820	2018-02-07	14:07	1200		7.58						
+USGS	02394820	2018-11-12	19:45	4000	2	10.66						
+USGS	02394820	2020-02-06	13:30	3700	2	10.81						
+USGS	02394820	2021-05-03	18:15	4200	2	12.39						
+USGS	02394820	2022-04-05	17:00	1220		7.67						
+USGS	02394820	2023-01-04	09:15	3880	2	10.52						
+USGS	02394820	2024-01-09	12:30	1610		8.82						
+USGS	02394820	2025-03-16	05:45	4320	2	12.59						

@@ -1,0 +1,132 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:03:10 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02441220 SAND CREEK TRIBUTARY NR MAYHEW, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02441220	1966-09-18		115		4.77						
+USGS	02441220	1967-07-09		182		5.78						
+USGS	02441220	1968-07-09		280		7.02						
+USGS	02441220	1969-05-18		193		5.94						
+USGS	02441220	1970-04-16		171		5.36						
+USGS	02441220	1971-02-21		216		6.23						
+USGS	02441220	1972-03-08		219		6.26						
+USGS	02441220	1973-03-16		201		6.04						
+USGS	02441220	1974-01-11		146		5.27						
+USGS	02441220	1975-03-13		168		5.58						
+USGS	02441220	1976-02-06		158		5.44						
+USGS	02441220	1977-04-02		366		8.10						
+USGS	02441220	1978-03-14		89.0		4.34						
+USGS	02441220	1979-04-12		275		6.98						
+USGS	02441220	1980-04-12		304		7.32						
+USGS	02441220	1981-04-01		189		5.88						
+USGS	02441220	1982-05-26		290		7.15						
+USGS	02441220	1983-05-19		263		6.81						
+USGS	02441220	1984-04-27		395		8.75						
+USGS	02441220	1984-11-24		62.0		3.81						
+USGS	02441220	1986-03-19		125		4.93						
+USGS	02441220	1986-11-26		73.0		4.03						
+USGS	02441220	1988-02-04		58.0		3.76						
+USGS	02441220	1989-04-05		195		5.94						
+USGS	02441220	1989-12-31		135		5.08						
+USGS	02441220	1991-05-27		320		7.58						
+USGS	02441220	1992-08-27		133		5.08						
+USGS	02441220	1993-03-23		119		4.86						
+USGS	02441220	1994-01-17		119		4.86						
+USGS	02441220	1995-03-06		150		5.31						
+USGS	02441220	1995-12-18		70.0		4.00						
+USGS	02441220	1997-04-27		103		4.58						
+USGS	02441220	1998-03-05		94.0		4.42						
+USGS	02441220	1999-01-23		137		4.84						
+USGS	02441220	2000-04-02		217		6.23						
+USGS	02441220	2001-03-13		100		4.53						
+USGS	02441220	2001-10-14		320		7.58						
+USGS	02441220	2003-04-06		230		6.44						
+USGS	02441220	2004-02-06		155		4.98						
+USGS	02441220	2005-08-30		253		6.75						
+USGS	02441220	2006-02-24		98.0		4.49						
+USGS	02441220	2006-10-17		135		5.10						
+USGS	02441220	2008-04-05		76.0		4.09						
+USGS	02441220	2009-02-28		220		6.32						
+USGS	02441220	2009-10-13		100		4.51						
+USGS	02441220	2011-04-21		225		6.76						
+USGS	02441220	2012-03-22		49.0		3.55						
+USGS	02441220	2013-03-11		112		4.72						
+USGS	02441220	2014-06-11		155		5.39						
+USGS	02441220	2015-04-25		80.0		4.05						
+USGS	02441220	2016-02-03		145		5.17						
+USGS	02441220	2017-04-03		75.0		4.07						
+USGS	02441220	2018-09-27	12:00	180		5.68						
+USGS	02441220	2019-04-14	12:00	290		7.14						
+USGS	02441220	2019-10-31	12:00	275		6.95						
+USGS	02441220	2021-08-31	12:00	148		5.28						
+USGS	02441220	2022-02-23	12:00	144		5.22						
+USGS	02441220	2023-09-07	12:00			7.73						

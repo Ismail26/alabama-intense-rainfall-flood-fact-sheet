@@ -1,0 +1,131 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:01:24 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02405500 KELLY CREEK NEAR VINCENT AL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02405500	1951-12-21		8770		19.51						
+USGS	02405500	1953-01-10		9970		20.50						
+USGS	02405500	1954-01-17		7190		17.88						
+USGS	02405500	1955-02-07		10500		20.86						
+USGS	02405500	1956-03-16		6000		16.53						
+USGS	02405500	1957-04-05		9840		20.40						
+USGS	02405500	1958-02-07		5040		15.24						
+USGS	02405500	1959-01-22		3730		12.90						
+USGS	02405500	1960-03-03		3880		13.20						
+USGS	02405500	1961-02-22		30900		27.08						
+USGS	02405500	1961-12-13		13700		22.80						
+USGS	02405500	1963-04-30		8850		19.90						
+USGS	02405500	1964-04-07		6940		18.65						
+USGS	02405500	1965-02-13		3000		11.40						
+USGS	02405500	1966-02-14		7100		17.80						
+USGS	02405500	1967-05-06		2950		11.53						
+USGS	02405500	1968-03-13		8270		19.03						
+USGS	02405500	1968-12-23		4580		14.47						
+USGS	02405500	1970-03-20		16100		23.69						
+USGS	02405500	1979-04-13		33400	7	27.39						
+USGS	02405500	1987-01-19		7020		17.72						
+USGS	02405500	1988-01-20		3300		11.48						
+USGS	02405500	1989-06-22		8070		19.18						
+USGS	02405500	1990-02-16		18700		25.31						
+USGS	02405500	1991-02-21		6710		17.58						
+USGS	02405500	1992-02-26		4210		13.50						
+USGS	02405500	1993-01-13		5610		15.79						
+USGS	02405500	1994-09-24		4450		13.90						
+USGS	02405500	1994-12-05		5120		15.05						
+USGS	02405500	1996-03-08		11000		21.98						
+USGS	02405500	1997-06-23		5960		16.42						
+USGS	02405500	1998-01-08		6790		17.69						
+USGS	02405500	1999-06-29		5830		16.21						
+USGS	02405500	2000-04-04		10700		21.79						
+USGS	02405500	2001-04-04		8540		19.75						
+USGS	02405500	2002-01-25		5140		15.63						
+USGS	02405500	2003-05-08		11400		22.71						
+USGS	02405500	2004-11-25		8610		19.82						
+USGS	02405500	2006-02-07		6490		17.24						
+USGS	02405500	2007-01-08		2840		10.76						
+USGS	02405500	2008-08-26		3890		12.87						
+USGS	02405500	2009-01-07		6290		16.93						
+USGS	02405500	2009-11-11		8410		19.62						
+USGS	02405500	2011-03-10		8220		19.43						
+USGS	02405500	2012-03-03		2510		10.03						
+USGS	02405500	2013-05-19		7430		18.55						
+USGS	02405500	2014-04-08		10400		21.55						
+USGS	02405500	2014-12-29		6620		17.44						
+USGS	02405500	2015-12-26		9210		20.03						
+USGS	02405500	2017-06-24		8840	2							
+USGS	02405500	2018-02-08	05:00	4800		14.93						
+USGS	02405500	2018-12-29	08:30	7010		18.01						
+USGS	02405500	2020-02-11	20:45	8670	2	19.70						
+USGS	02405500	2021-05-05	08:00	5150	2	16.77						
+USGS	02405500	2022-06-09	06:00	5430		15.92						
+USGS	02405500	2023-01-05	05:00	5200		15.21						
+USGS	02405500	2024-02-13	05:30	4480		14.38						

@@ -1,0 +1,112 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:04:19 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02467050 TOMBIGBEE R AT US HWY 80 NEAR COATOPA, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02467050	1893-00-00		93000	Bm	54.80	Bm					
+USGS	02467050	1894-00-00		70000	Bm	46.20	Bm					
+USGS	02467050	1895-00-00		87000	Bm	53.10	Bm					
+USGS	02467050	1896-00-00		94000	Bm	55.00	Bm					
+USGS	02467050	1897-00-00		126000	Bm	59.20	Bm					
+USGS	02467050	1898-00-00		81000	Bm	50.40	Bm					
+USGS	02467050	1899-00-00		172000	Bm	63.70	Bm					
+USGS	02467050	1900-00-00		330000	Bm	73.10	Bm					
+USGS	02467050	1901-00-00		91000	Bm	54.00	Bm					
+USGS	02467050	1902-00-00		250000	Bm	68.90	Bm					
+USGS	02467050	1903-00-00		190000	Bm	65.10	Bm					
+USGS	02467050	1904-00-00		26000	Bm	24.10	Bm					
+USGS	02467050	1905-00-00		130000	Bm	59.80	Bm					
+USGS	02467050	1906-00-00		106000	Bm	57.20	Bm					
+USGS	02467050	1907-00-00		83000	Bm	51.70	Bm					
+USGS	02467050	1908-00-00		101000	Bm	56.50	Bm					
+USGS	02467050	1909-00-00		200000	Bm	65.90	Bm					
+USGS	02467050	1910-00-00		52000	Bm	38.20	Bm					
+USGS	02467050	1911-00-00		58000	Bm	46.90	Bm					
+USGS	02467050	1912-00-00		144000	Bm	61.20	Bm					
+USGS	02467050	1913-00-00		93000	Bm	54.70	Bm					
+USGS	02467050	1914-00-00		65000	Bm	44.20	Bm					
+USGS	02467050	1915-00-00		91000	Bm	53.90	Bm					
+USGS	02467050	1916-00-00		203000	Bm	66.20	Bm					
+USGS	02467050	1918-00-00		72000	Bm	47.30	Bm					
+USGS	02467050	1919-00-00		115000	Bm	58.10	Bm					
+USGS	02467050	1920-00-00		148000	Bm	61.60	Bm					
+USGS	02467050	1921-00-00		94000	Bm	54.90	Bm					
+USGS	02467050	1922-00-00		100000	Bm	56.50	Bm					
+USGS	02467050	1923-00-00		95000	Bm	55.40	Bm					
+USGS	02467050	1924-00-00		86000	Bm	52.80	Bm					
+USGS	02467050	1925-00-00		87000	Bm	53.00	Bm					
+USGS	02467050	1926-00-00		75000	Bm	48.20	Bm					
+USGS	02467050	1927-00-00		190000	Bm	65.30	Bm					
+USGS	02467050	1928-00-00		144000	Bm	61.20	Bm					
+USGS	02467050	1929-00-00				65.50	Bm					
+USGS	02467050	1979-04-18		343000		37.03		1818				
+USGS	02467050	1980-03-27		200000		28.23						

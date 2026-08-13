@@ -1,0 +1,101 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:02:19 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 0242354750 CAHABA VALLEY CREEK AT CROSS CR RD AT PELHAM, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	0242354750	1999-01-31		724	C	6.95						
+USGS	0242354750	2000-04-04		1650	C	6.32						
+USGS	0242354750	2001-09-03		1290	C	9.42						
+USGS	0242354750	2002-09-22		1330	C	9.60						
+USGS	0242354750	2003-06-17		1530	C	10.43						
+USGS	0242354750	2004-09-16		1480	C	10.20						
+USGS	0242354750	2004-11-24		1090	C	8.71						
+USGS	0242354750	2006-03-20		650	C	6.61						
+USGS	0242354750	2007-02-01		352	C	4.90						
+USGS	0242354750	2008-08-26		733	C	7.03						
+USGS	0242354750	2009-01-07		800	C	7.36						
+USGS	0242354750	2010-03-10		2060	C	12.46						
+USGS	0242354750	2011-03-09		1520	C	10.46						
+USGS	0242354750	2012-07-31		1490	C	10.34						
+USGS	0242354750	2013-07-11	04:30	693	C	6.83						
+USGS	0242354750	2014-04-07		2860	C	15.06						
+USGS	0242354750	2014-12-28		1590	C	10.73						
+USGS	0242354750	2015-12-26		1440	C	10.07						
+USGS	0242354750	2017-04-05		1170	C	8.35						
+USGS	0242354750	2018-04-15	06:15	1230	C	8.77						
+USGS	0242354750	2018-12-28	12:45	1710	C	11.37						
+USGS	0242354750	2020-02-11	02:00	1450	C	10.12						
+USGS	0242354750	2021-05-04	23:45	2130	C	12.74						
+USGS	0242354750	2021-10-07	01:00	3390	2,C	17.73						
+USGS	0242354750	2022-11-30	02:45	1060	C	8.45						
+USGS	0242354750	2024-02-12	12:45	699	C	6.65						
+USGS	0242354750	2025-04-06	14:15	919	C	7.77						

@@ -1,0 +1,105 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 14:59:16 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02365470 WRIGHTS CREEK AT SH 177-A NR BONIFAY,FL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02365470	1983-06-21		2320		11.09						
+USGS	02365470	1984-03-06		7200		13.73						
+USGS	02365470	1985-01-03		1340		8.70						
+USGS	02365470	1986-02-06		1950		10.46						
+USGS	02365470	1987-06-23		1920		10.37						
+USGS	02365470	1999-06-30		1210		8.43						
+USGS	02365470	2000-03-21		405		6.18						
+USGS	02365470	2001-03-16		2120		10.02						
+USGS	02365470	2002-04-12		1420		8.92						
+USGS	02365470	2003-04-09		3810		11.86						
+USGS	02365470	2004-02-15		1730		9.46						
+USGS	02365470	2005-04-02		4390		12.35						
+USGS	02365470	2006-01-04		2160		10.08						
+USGS	02365470	2007-02-03		1290		8.69						
+USGS	02365470	2008-02-23		9320		15.30						
+USGS	02365470	2009-03-29		12100		17.17						
+USGS	02365470	2010-01-22		8990		15.70						
+USGS	02365470	2011-03-10		571		6.90						
+USGS	02365470	2012-03-05		1500		8.99						
+USGS	02365470	2013-07-05		7900		15.10						
+USGS	02365470	2014-04-19		5800		13.75						
+USGS	02365470	2014-12-25		7810		15.05						
+USGS	02365470	2016-04-02		4180		12.41						
+USGS	02365470	2017-01-03		5490		13.52						
+USGS	02365470	2018-02-12	20:30	4320		12.54						
+USGS	02365470	2018-12-02	15:00	4200		13.10						
+USGS	02365470	2020-09-17	01:30	19900		20.70						
+USGS	02365470	2021-04-25	07:30	6210		14.04						
+USGS	02365470	2022-03-20	10:30	1980		9.90						
+USGS	02365470	2023-03-29	21:00	1680		9.45						
+USGS	02365470	2024-04-11	21:30	5010		13.14						

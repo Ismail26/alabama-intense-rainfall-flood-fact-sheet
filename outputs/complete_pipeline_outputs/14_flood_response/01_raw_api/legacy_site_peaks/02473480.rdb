@@ -1,0 +1,133 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:04:37 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02473480 TALLAHATTAH CREEK NR WALDRUP, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02473480	1965-01-23		892		14.14						
+USGS	02473480	1966-02-16		2000		15.00						
+USGS	02473480	1967-05-04		630		13.80						
+USGS	02473480	1967-12-18		1420		14.65						
+USGS	02473480	1969-04-13		2140		15.07						
+USGS	02473480	1970-03-20		320		13.20						
+USGS	02473480	1971-02-21		4200		16.18						
+USGS	02473480	1972-05-13		6500		16.97						
+USGS	02473480	1973-03-25		3920		16.05						
+USGS	02473480	1974-04-13				18.14						
+USGS	02473480	1975-02-16		2400		15.30						
+USGS	02473480	1976-03-31		1780		14.87						
+USGS	02473480	1977-04-22		1880		14.95						
+USGS	02473480	1978-05-08		1240		14.41						
+USGS	02473480	1979-03-03		7200		17.20						
+USGS	02473480	1980-05-17		3470		15.85						
+USGS	02473480	1981-04-01		1520		14.89						
+USGS	02473480	1982-02-16		900		14.09						
+USGS	02473480	1983-02-01		2300		15.24						
+USGS	02473480	1984-03-06		756		13.94						
+USGS	02473480	1985-02-09		880		14.07						
+USGS	02473480	1986-05-25		1360		14.52						
+USGS	02473480	1987-01-18		2400		15.30						
+USGS	02473480	1988-04-03		495		13.57						
+USGS	02473480	1989-03-30		1500		14.64						
+USGS	02473480	1990-02-16		4360		16.23						
+USGS	02473480	1991-02-20		2150		15.14						
+USGS	02473480	1992-03-19		1510		14.65						
+USGS	02473480	1993-01-12		1440		14.59						
+USGS	02473480	1994-01-28		2400		15.30						
+USGS	02473480	1995-04-21		1470		14.62						
+USGS	02473480	1996-01-27		515		13.40						
+USGS	02473480	1997-02-13		462		13.12						
+USGS	02473480	1998-01-07		5790		16.40						
+USGS	02473480	2000-04-04		1010		14.26						
+USGS	02473480	2001-03-02		1960		15.01						
+USGS	02473480	2001-12-14		830		14.05						
+USGS	02473480	2003-02-22		2420		15.26						
+USGS	02473480	2004-02-06		2420		15.26						
+USGS	02473480	2005-02-02		1140		14.39						
+USGS	02473480	2006-03-20		717		13.90						
+USGS	02473480	2006-12-31		637	4	13.77	4					
+USGS	02473480	2008-09-02		1310		14.54						
+USGS	02473480	2009-03-28		3250		15.63						
+USGS	02473480	2010-02-05		1700		14.84						
+USGS	02473480	2011-03-09		8000		18.15						
+USGS	02473480	2012-08-31		2140		15.11						
+USGS	02473480	2012-12-29		1700		14.84						
+USGS	02473480	2014-04-07		3150		15.59						
+USGS	02473480	2015-01-04		624	4	13.74	4					
+USGS	02473480	2016-03-11		5680		16.99						
+USGS	02473480	2017-04-03		1930		14.96						
+USGS	02473480	2018-04-15	12:00	1170		14.41						
+USGS	02473480	2019-05-12	12:00	2030		15.05						
+USGS	02473480	2020-04-24	12:00	3210		15.68						
+USGS	02473480	2021-03-26	12:00	5770		17.04						
+USGS	02473480	2022-03-23	12:00	3100		15.61						
+USGS	02473480	2023-01-04	12:00	2950		15.51						
+USGS	02473480	2024-05-18	12:00	1210		14.46						

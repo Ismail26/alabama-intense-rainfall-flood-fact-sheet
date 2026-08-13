@@ -1,0 +1,124 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:02:32 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02427506 ALABAMA RIVER BELOW MILLERS FERRY L&D NR CAMDEN AL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02427506	1972-01-15				58.30						
+USGS	02427506	1973-04-05				56.60						
+USGS	02427506	1974-01-05				48.10						
+USGS	02427506	1975-02-20				58.50						
+USGS	02427506	1976-04-05				60.30						
+USGS	02427506	1977-04-05				58.40						
+USGS	02427506	1978-01-30				54.10						
+USGS	02427506	1979-04-20				62.30						
+USGS	02427506	1980-03-31				60.20						
+USGS	02427506	1981-04-04				53.10						
+USGS	02427506	1982-02-07				56.40						
+USGS	02427506	1983-04-12				59.00						
+USGS	02427506	1983-12-10				55.30						
+USGS	02427506	1985-02-07				48.80						
+USGS	02427506	1986-03-15				41.70						
+USGS	02427506	1987-03-03				51.40						
+USGS	02427506	1988-01-22				43.20						
+USGS	02427506	1989-06-26				55.60						
+USGS	02427506	1990-03-23				82.90						
+USGS	02427506	1991-02-24				47.60						
+USGS	02427506	1992-02-19				45.50						
+USGS	02427506	1992-12-20				51.70						
+USGS	02427506	1994-04-19				43.10						
+USGS	02427506	1995-03-11				50.40						
+USGS	02427506	1996-02-07				56.21						
+USGS	02427506	1997-03-05				49.53	3					
+USGS	02427506	2002-01-28				59.91	6					
+USGS	02427506	2003-07-06				72.13						
+USGS	02427506	2004-09-18				64.64						
+USGS	02427506	2005-04-05				77.90						
+USGS	02427506	2006-02-27				60.78						
+USGS	02427506	2006-11-17				55.49						
+USGS	02427506	2008-08-28				55.63						
+USGS	02427506	2009-03-30				75.03						
+USGS	02427506	2009-12-21				73.46						
+USGS	02427506	2011-03-12				70.22						
+USGS	02427506	2012-03-05							2012-03-05		56.04	
+USGS	02427506	2013-02-14	22:00						2013-02-14	2200	76.44	
+USGS	02427506	2014-04-11							2014-04-11		74.86	
+USGS	02427506	2015-01-07							2015-01-07		63.37	
+USGS	02427506	2015-12-31							2015-12-31		77.99	
+USGS	02427506	2017-06-25							2017-06-25		72.36	
+USGS	02427506	2018-06-01	09:00						2018-06-01	0900	63.31	
+USGS	02427506	2019-01-02	01:00						2019-01-02	0100	74.53	
+USGS	02427506	2020-02-24	01:00						2020-02-24	0100	77.97	
+USGS	02427506	2021-04-02	03:00						2021-04-02	0300	66.53	
+USGS	02427506	2022-02-08	01:00						2022-02-08	0100	69.57	
+USGS	02427506	2023-03-30	13:04			68.60						
+USGS	02427506	2024-02-16	20:30			71.07						
+USGS	02427506	2025-04-11	11:00			70.27						

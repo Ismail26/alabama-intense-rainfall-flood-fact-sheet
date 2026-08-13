@@ -1,0 +1,30 @@
+{
+  "project": "Alabama intense-rainfall and major-flood temporal trends",
+  "created_utc": "2026-08-06T23:11:34.683420+00:00",
+  "python_version": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "analysis_period": {
+    "start_year": 1979,
+    "end_year": 2025,
+    "year_count": 47
+  },
+  "thresholds": {
+    "rainfall_duration_hours": 24,
+    "rainfall_atlas14_lower_bound_years": 10.0,
+    "flood_screening_return_period_years": 10.0
+  },
+  "statistics": {
+    "trend_test": "two-sided Mann\u2013Kendall with tie correction",
+    "slope": "Theil\u2013Sen",
+    "alpha": 0.05,
+    "moving_average_years": 5,
+    "moving_average_use": "visualization only"
+  },
+  "gage_network": {
+    "active_network_denominator": "gages with a usable annual peak in each water year",
+    "fixed_network_rule": "coverage plus common-period edge rule",
+    "fixed_network_minimum_coverage": 0.8,
+    "fixed_network_gage_count": 59
+  },
+  "interpretation_guardrail": "Trend detection for the analyzed record does not establish causal attribution."
+}

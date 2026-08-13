@@ -1,0 +1,102 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:05:53 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 0357526200 BIG COVE CREEK AT DUG HILL ROAD NR HUNTSVILLE, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	0357526200	1996-12-01		1370	C	11.02						
+USGS	0357526200	1998-05-07		636	C	9.66						
+USGS	0357526200	1999-06-28		2360	C	12.20						
+USGS	0357526200	2000-04-03		1310	C	10.88						
+USGS	0357526200	2001-01-19		966	C	10.16						
+USGS	0357526200	2001-12-14		1310	C	10.88						
+USGS	0357526200	2003-05-06		4250	C	13.38						
+USGS	0357526200	2004-03-05		1510	C	11.19						
+USGS	0357526200	2004-12-09		1260	C	10.78						
+USGS	0357526200	2006-01-17		390	C	7.89						
+USGS	0357526200	2006-12-31		225	C	6.74						
+USGS	0357526200	2008-03-04		975	C	10.18						
+USGS	0357526200	2009-04-02		1390	C	11.02						
+USGS	0357526200	2009-12-08		2620	C	12.45						
+USGS	0357526200	2011-01-01		1750	C	11.53						
+USGS	0357526200	2012-01-23		1600	C	11.33						
+USGS	0357526200	2013-07-10	22:30	1960	C	11.78						
+USGS	0357526200	2014-04-30		1350	C	10.94						
+USGS	0357526200	2015-01-03		525	C	8.58						
+USGS	0357526200	2015-12-25		2300	C	12.15						
+USGS	0357526200	2017-08-10		4140	C	13.54						
+USGS	0357526200	2018-02-28	19:55	1530	C	11.22						
+USGS	0357526200	2019-02-23	20:35	1190	C	10.65						
+USGS	0357526200	2020-03-24	07:50	2410	C	12.26						
+USGS	0357526200	2022-02-23	01:25	1190	C	10.65						
+USGS	0357526200	2023-07-21	05:00	1630	C	11.37						
+USGS	0357526200	2024-05-09	05:20	305	C	8.07						
+USGS	0357526200	2025-05-20	20:25	904	C	10.01						

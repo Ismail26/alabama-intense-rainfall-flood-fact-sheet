@@ -1,0 +1,10 @@
+metric,value
+eligible_gages,354
+gages_with_nldi_corridors,354
+unique_nldi_reaches,4494
+reaches_with_historical_flood_estimate,4494
+reaches_with_major_matched_event,2904
+selected_event_id,AL-RF-19790413-0003
+selected_event_duration_hours,24
+selected_event_matched_reaches,906
+rainfall_flood_relationship_pairs,1201

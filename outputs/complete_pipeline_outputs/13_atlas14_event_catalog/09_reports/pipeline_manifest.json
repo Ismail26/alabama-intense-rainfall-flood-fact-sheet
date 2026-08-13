@@ -1,0 +1,129 @@
+{
+  "project": "Alabama AORC Atlas 14 storm-event catalog",
+  "created_utc": "2026-07-21T21:45:49.717944+00:00",
+  "python_version": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:36:12) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "aorc": {
+    "hourly_directory": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\04_hourly_huc12",
+    "years": [
+      1979,
+      1980,
+      1981,
+      1982,
+      1983,
+      1984,
+      1985,
+      1986,
+      1987,
+      1988,
+      1989,
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "precipitation_variable": "precip_coverage_area_mm",
+    "timestamp_interpretation": "one-hour accumulation ending at timestamp"
+  },
+  "atlas14": {
+    "download_directory": "D:\\projstore\\Ismail\\Dr Koriche\\Intense Rainfall and Flash Flooding\\Data\\ATLAS 14\\NOAA_Atlas14_Alabama_PDS",
+    "series": "pds",
+    "statistic": "expected",
+    "target_durations_hours": [
+      1,
+      3,
+      6,
+      24,
+      72
+    ],
+    "target_aris_years": [
+      1,
+      2,
+      5,
+      10,
+      25,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ],
+    "equal_area_crs": "EPSG:5070",
+    "interpretation": "HUC-12 average of Atlas 14 point-frequency grids used as a screening benchmark, not a formal areal return period."
+  },
+  "event_engine": {
+    "detection_ari_years": 2,
+    "minimum_affected_hucs": 3,
+    "high_ratio_override": 1.5,
+    "merge_gap_hours": 12,
+    "context_hours": 12,
+    "scan_durations_hours": [
+      1,
+      3,
+      6,
+      24,
+      72
+    ]
+  },
+  "storm_attribution": {
+    "hurdat2_cache": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\05_external_data\\hurdat2_atlantic.txt",
+    "storm_events_cache": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\05_external_data\\storm_events_details",
+    "tropical_time_buffer_hours": 36,
+    "tropical_max_distance_km": 600,
+    "storm_events_time_buffer_hours": 24,
+    "frontal_classification_note": "Frontal/extratropical labels are candidates inferred from non-tropical prolonged/widespread rainfall and NOAA event evidence. Confirm important cases with archived WPC surface analyses."
+  },
+  "counts": {
+    "huc12": 1487,
+    "atlas_archives_selected": 50,
+    "events_detected": 531,
+    "factsheet_priority_events": 529,
+    "event_huc_duration_rows": 72429
+  },
+  "main_outputs": {
+    "event_catalog_csv": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\06_event_catalog\\aorc_atlas14_storm_event_catalog.csv",
+    "event_huc_details_csv": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\06_event_catalog\\aorc_atlas14_event_huc12_details.csv",
+    "huc12_summary_gpkg": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\07_spatial_outputs\\atlas14_normalized_huc12_summary.gpkg",
+    "event_footprints_gpkg": "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\07_spatial_outputs\\storm_event_footprints.gpkg",
+    "figures": [
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\08_figures\\figure_01_duration_recurrence_hotspots.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\08_figures\\figure_02_major_event_frequency_rx24h_10yr.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\08_figures\\figure_03_top_storm_events.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\08_figures\\figure_04_event_seasonality.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\08_figures\\figure_05_event_duration_signatures.png",
+      "D:\\projstore\\Ismail\\CRIMSON_AORC_3METHOD\\13_atlas14_event_catalog\\08_figures\\figure_06_representative_event_footprints.png"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 14:58:07 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02337448 HURRICANE CREEK TRIBUTARY NEAR FAIRPLAY, GA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02337448	1977-03-30		153		7.06						
+USGS	02337448	1977-11-05		292		9.46						
+USGS	02337448	1979-04-13		170		7.39						
+USGS	02337448	1980-06-24		91.0		5.82						
+USGS	02337448	1981-05-27		42.0		4.68						
+USGS	02337448	1982-02-03		87.0		5.74						
+USGS	02337448	1983-04-08		55.0		4.99						
+USGS	02337448	1983-12-06		44.0		4.72						
+USGS	02337448	1985-00-00		5.00	4,Bm	4.00	4,Bm					
+USGS	02337448	1986-00-00		5.00	4,Bm	4.00	4,Bm					
+USGS	02337448	1987-06-25		127		6.57						
+USGS	02337448	1988-01-20		29.0		4.24						
+USGS	02337448	1989-06-20		45.0		4.72						
+USGS	02337448	1990-03-16		229		8.37						
+USGS	02337448	1991-07-18		80.0		5.60						
+USGS	02337448	1992-08-22		58.0		5.08						
+USGS	02337448	1992-11-25		57.0		5.06						
+USGS	02337448	1994-07-05		50.0		4.88						
+USGS	02337448	1995-02-16		41.0		4.63						
+USGS	02337448	1996-03-08		121		6.45						
+USGS	02337448	1997-05-31		73.0		5.44						
+USGS	02337448	1998-03-09		116		6.34						
+USGS	02337448	1998-10-08		141		6.84						
+USGS	02337448	2000-00-00		10.0	4,Bm	3.50	4,Bm					
+USGS	02337448	2001-03-14		48.0		4.80						
+USGS	02337448	2002-09-21		113		6.30						
+USGS	02337448	2003-06-17		147		6.94						
+USGS	02337448	2004-09-16		84.5		5.69						
+USGS	02337448	2005-07-06		99.9		6.02						
+USGS	02337448	2006-00-00		10.0	4,Bm	3.50	4,Bm					
+USGS	02337448	2006-11-15		39.7		4.58						
+USGS	02337448	2008-00-00		10.0	4,Bm	3.50	4,Bm					
+USGS	02337448	2009-09-21		376		10.57						
+USGS	02337448	2010-05-04		116		6.36						
+USGS	02337448	2011-00-00		26.0	4,Bm	4.14	4,Bm					
+USGS	02337448	2012-03-03		70.0		5.36						
+USGS	02337448	2013-00-00		26.0	4,Bm	4.14	4,Bm					
+USGS	02337448	2014-04-07		43.6		4.69						
+USGS	02337448	2015-00-00		29.9	4,Bm	4.27	4,Bm					
+USGS	02337448	2015-12-24		110		6.24						
+USGS	02337448	2017-04-06		122		6.48						

@@ -1,0 +1,107 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:03:32 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02449882 BLUE SPRINGS CREEK NEAR BLOUNTSVILLE, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02449882	1993-01-12		1130		7.94						
+USGS	02449882	1994-02-11		1440		8.77						
+USGS	02449882	1995-02-16		1220		8.20						
+USGS	02449882	1995-10-05		1370		8.58						
+USGS	02449882	1997-05-03		2470		11.37						
+USGS	02449882	1998-01-07		2150		10.63						
+USGS	02449882	1999-01-23		1250		8.26						
+USGS	02449882	2000-04-03		1620		9.24						
+USGS	02449882	2001-04-04		1120		7.93						
+USGS	02449882	2002-01-24		1130		7.94						
+USGS	02449882	2003-02-27		1130		7.94						
+USGS	02449882	2004-02-06		1230		8.23						
+USGS	02449882	2004-12-09		1660		9.35						
+USGS	02449882	2006-09-22		1150		8.01						
+USGS	02449882	2006-10-17		502		6.10						
+USGS	02449882	2007-10-17		502		6.10						
+USGS	02449882	2009-01-06		1920		10.04						
+USGS	02449882	2010-05-03		2270		10.91						
+USGS	02449882	2011-03-09		2010		10.27						
+USGS	02449882	2012-03-03		1350		8.54						
+USGS	02449882	2013-08-01	04:00	1240		9.62						
+USGS	02449882	2014-04-07		997		8.41						
+USGS	02449882	2014-10-14		377		6.49						
+USGS	02449882	2015-12-25		2630		11.77						
+USGS	02449882	2017-01-22		454		6.72						
+USGS	02449882	2018-03-19	22:30	1500		8.76						
+USGS	02449882	2018-12-28	08:30	2170		10.27						
+USGS	02449882	2020-02-06	05:00	2570		11.49						
+USGS	02449882	2021-03-25	19:45	2460		11.09						
+USGS	02449882	2022-02-23	07:45	1800		9.37						
+USGS	02449882	2023-08-04	07:45	2120		10.15						
+USGS	02449882	2024-02-12	05:30	175		5.41						
+USGS	02449882	2025-04-06	10:45	1220		8.22						

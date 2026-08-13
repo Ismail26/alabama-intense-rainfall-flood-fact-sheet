@@ -1,0 +1,124 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 14:58:03 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02330400 NEW RIVER NEAR SUMATRA, FLA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02330400	1964-12-07		3620		24.68						
+USGS	02330400	1966-09-21		3470		24.49						
+USGS	02330400	1967-08-27		1650		21.82						
+USGS	02330400	1968-09-20		1380		21.41						
+USGS	02330400	1969-09-23		6670		27.38						
+USGS	02330400	1970-08-29		2280		22.91						
+USGS	02330400	1971-08-31		1160		21.22						
+USGS	02330400	1972-06-27		2360		23.03						
+USGS	02330400	1973-04-01		3770		24.85						
+USGS	02330400	1974-09-10		3110		24.03						
+USGS	02330400	1975-07-31		4620		25.75						
+USGS	02330400	1976-06-06		1640		22.00						
+USGS	02330400	1976-11-29		1410		21.63						
+USGS	02330400	1978-03-10		2350		23.02						
+USGS	02330400	1979-09-28		3240		24.25						
+USGS	02330400	1980-03-12		2650		23.44						
+USGS	02330400	1981-02-12		3350		24.32						
+USGS	02330400	1982-08-12		1930		22.42						
+USGS	02330400	1983-04-15		2800		23.64						
+USGS	02330400	1984-08-01		3200		24.14						
+USGS	02330400	1985-09-03		4460		25.68						
+USGS	02330400	1986-02-12		2790		23.91						
+USGS	02330400	1997-08-05		1570		22.00						
+USGS	02330400	1998-09-06		1770		22.36						
+USGS	02330400	1998-10-03		2600		23.63						
+USGS	02330400	2000-09-24		2480		23.46						
+USGS	02330400	2001-08-08		5430		26.31						
+USGS	02330400	2002-03-05		3210		24.38						
+USGS	02330400	2003-03-11		2850		23.95						
+USGS	02330400	2004-09-19		1590		22.04						
+USGS	02330400	2005-04-03		2430		23.40						
+USGS	02330400	2006-01-04		1310		21.48						
+USGS	02330400	2007-02-05		1460		21.79						
+USGS	02330400	2008-08-26		2670		23.74						
+USGS	02330400	2009-04-05		3290		24.50						
+USGS	02330400	2010-01-24		2620		23.85						
+USGS	02330400	2011-02-13		571		19.67						
+USGS	02330400	2012-06-27		3890		25.56						
+USGS	02330400	2013-02-28		3460		24.49						
+USGS	02330400	2014-03-19		2900		23.85						
+USGS	02330400	2014-12-26		3440		24.47						
+USGS	02330400	2016-04-04		2080		23.42						
+USGS	02330400	2017-06-23		1180		21.67						
+USGS	02330400	2018-08-04	17:00	2920		24.53						
+USGS	02330400	2018-12-06	01:00	1990		23.27						
+USGS	02330400	2020-09-18	07:30	4770		26.27						
+USGS	02330400	2021-08-19	06:00	2120		23.48						
+USGS	02330400	2022-09-13	06:45	1330		21.70						
+USGS	02330400	2023-02-15	07:30	963		21.30						
+USGS	02330400	2024-09-28	08:15	4470		26.03						

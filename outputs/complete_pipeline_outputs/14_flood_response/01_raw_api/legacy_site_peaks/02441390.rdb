@@ -1,0 +1,108 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:03:11 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02441390 TOMBIGBEE RIVER AT STENNIS LOCK AND DAM, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02441390	1981-04-03		29700	6							
+USGS	02441390	1982-01-06		60800	6	161.77	3					
+USGS	02441390	1983-05-22		136000	6	170.83	3					
+USGS	02441390	1983-12-06		124000	6	71.09	6					
+USGS	02441390	1985-05-04		56800	6	63.48						
+USGS	02441390	1986-03-19		32000	6	63.05						
+USGS	02441390	1987-03-01		65200	6	62.97						
+USGS	02441390	1988-04-02		31200	6	62.95						
+USGS	02441390	1989-01-15		118000	6	21.95						
+USGS	02441390	1990-02-04		63400	6	14.47						
+USGS	02441390	1991-05-29		172000	6	69.45	2		1990-12-24		69.53	
+USGS	02441390	1991-12-05		126000	6	63.88						
+USGS	02441390	1993-03-23		40000	6	45.47	2		1993-02-17		47.26	
+USGS	02441390	1994-02-12		101000	6	59.12	2		1994-02-13		61.08	
+USGS	02441390	1995-03-08		102000	6	58.88	2		1995-04-24		61.28	
+USGS	02441390	1996-04-23		66600	6	53.67	2		1996-04-24		53.81	
+USGS	02441390	1997-05-03		83100	6	54.13	2		1997-05-04		56.42	
+USGS	02441390	1998-03-08		71200	6	52.91	2		1998-03-09		53.19	
+USGS	02441390	1999-01-23		76000	6	53.93	2		1999-01-25		56.19	
+USGS	02441390	2000-04-04		103000	6	61.94	2		2000-04-05		62.47	
+USGS	02441390	2001-01-19		79800	6	52.98	2		2001-01-20		54.61	
+USGS	02441390	2002-01-25		81100	6	54.36	2		2002-01-26		60.32	
+USGS	02441390	2003-02-22		80000	6	55.07	2		2003-02-23		56.30	
+USGS	02441390	2004-02-06		80700	6	52.83	2		2004-02-07		57.52	
+USGS	02441390	2004-12-10		104000	6	62.28						
+USGS	02441390	2006-01-23		58200	6	48.84						
+USGS	02441390	2007-01-05		57100	6	47.90	2		2007-01-06		48.45	
+USGS	02441390	2008-04-28		34200	6	41.79	2		2008-04-05		44.83	
+USGS	02441390	2009-02-28		82000	6	56.89	2		2009-03-01		58.12	
+USGS	02441390	2009-10-14	12:00	68700	6	52.85	2		2009-10-15	0100	53.65	
+USGS	02441390	2011-04-16	03:00	72800	6	49.30	2		2011-03-10	0400	51.74	
+USGS	02441390	2012-02-05	05:00	40900	6	46.11	2		2012-03-23	1100	47.33	
+USGS	02441390	2013-01-16	18:00	75000	6	54.28						
+USGS	02441390	2014-04-07	17:00	65900	6	50.82	2		2014-04-07	2200	51.43	

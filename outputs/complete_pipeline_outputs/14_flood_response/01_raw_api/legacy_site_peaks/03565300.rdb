@@ -1,0 +1,104 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:05:24 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03565300 SOUTH CHESTUEE CREEK NEAR BENTON, TN
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03565300	1957-11-18		1790		7.76						
+USGS	03565300	1959-04-19		900		7.06						
+USGS	03565300	1960-03-03		2070		7.98						
+USGS	03565300	1961-03-08		2870		8.37						
+USGS	03565300	1961-12-18		4140		9.09						
+USGS	03565300	1963-03-12		3750		8.87						
+USGS	03565300	1964-04-28		3260		8.60						
+USGS	03565300	1965-03-26		3310		8.63						
+USGS	03565300	1966-03-04		1020		7.17						
+USGS	03565300	1967-07-07		1910		7.82						
+USGS	03565300	1967-12-18		2140		7.97						
+USGS	03565300	1969-02-02		2330		8.08						
+USGS	03565300	1969-12-30		1270		7.36						
+USGS	03565300	1971-07-31		2110		7.95						
+USGS	03565300	1972-07-30		4110		9.07						
+USGS	03565300	1973-03-16		12000		12.11						
+USGS	03565300	1973-11-28		2280		8.05						
+USGS	03565300	1975-03-30		4230		9.13						
+USGS	03565300	1976-03-30		1220		7.33						
+USGS	03565300	1977-03-13		2420		8.38						
+USGS	03565300	1978-01-08		1400		7.49						
+USGS	03565300	1979-07-21		2660		8.35						
+USGS	03565300	1980-03-20		4740		9.38						
+USGS	03565300	1981-04-24		709		6.75						
+USGS	03565300	1982-01-03		2060		7.96						
+USGS	03565300	1983-04-05		2220		8.07						
+USGS	03565300	1984-05-08		2120		8.10						
+USGS	03565300	1985-02-01		1550		7.75						
+USGS	03565300	1986-03-19		554		6.54						
+USGS	03565300	1986-11-24		1150		7.44	2		1987-08-19		16.10	

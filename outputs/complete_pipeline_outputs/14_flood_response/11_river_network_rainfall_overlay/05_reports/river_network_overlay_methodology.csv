@@ -1,0 +1,6 @@
+component,method,interpretation
+River network,USGS NLDI NHDPlusV2 upstream-mainstem and downstream-mainstem navigation: 12 km upstream and 12 km downstream per eligible gage,Colored lines are gage-supported corridors for visualization; they do not represent modeled flood inundation.
+River flood severity,Maximum flood screening return period among supporting USGS gages,"Screening estimate from the existing annual-peak pipeline, not a formal Bulletin 17C flood-frequency result."
+Repeated major floods,Distinct matched rainfall–flood events with return period ≥10 years,One event is counted once per reach even if multiple supporting gages matched the event.
+Rolling rainfall,AORC HUC-12 maximum rolling 24-hour accumulation from the existing event catalog,Average intensity is rolling accumulation divided by duration; it is not an instantaneous rainfall rate.
+Rainfall–flood relationship,Join each matched gage event to rainfall in the gage's HUC-12,"Spatial-temporal correspondence only; antecedent wetness, routing, regulation, and other controls remain important."

@@ -1,0 +1,105 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:04:16 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02466000 BLACK WARRIOR RIVER NEAR EUTAW, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02466000	1932-12-16		85600		54.41						
+USGS	02466000	1934-03-07		68200		51.01						
+USGS	02466000	1935-03-09		72700		52.19						
+USGS	02466000	1936-02-07		130000		56.30						
+USGS	02466000	1937-01-06		66700		51.80						
+USGS	02466000	1938-04-11		122000		55.74						
+USGS	02466000	1939-03-04		69300		52.11						
+USGS	02466000	1940-07-18		50400		48.68						
+USGS	02466000	1941-03-09		39500		39.72						
+USGS	02466000	1942-02-20		46000		45.00						
+USGS	02466000	1943-01-02		79800		52.70						
+USGS	02466000	1944-04-01		109000		55.00						
+USGS	02466000	1945-02-15		54300		43.00	2		1945-02-24		48.20	
+USGS	02466000	1946-02-13		134000		55.90						
+USGS	02466000	1947-01-23		114000		55.20						
+USGS	02466000	1948-02-16		102000		54.60						
+USGS	02466000	1949-01-09		158000		56.80						
+USGS	02466000	1950-03-17		103000		54.20						
+USGS	02466000	1951-04-01		183000		59.10						
+USGS	02466000	1951-12-24		54600		48.00						
+USGS	02466000	1953-02-25		54700		48.00						
+USGS	02466000	1954-01-20		55400		47.20						
+USGS	02466000	1955-02-09		51700		46.90						
+USGS	02466000	1956-04-09		52700		47.20						
+USGS	02466000	1957-02-07		55800		47.70						
+USGS	02466000	1961-00-00		213000	7,Bm	60.30	Bm					
+USGS	02466000	1977-04-07		88900	1							
+USGS	02466000	1978-05-11		45700	1							
+USGS	02466000	1979-04-16		222000	1			1874				
+USGS	02466000	1980-04-16		118000	1							
+USGS	02466000	1981-04-02		49000	1							

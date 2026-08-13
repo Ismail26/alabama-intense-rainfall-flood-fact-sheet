@@ -1,0 +1,110 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:04:46 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02476000 OKATIBBEE CREEK NR MERIDIAN, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02476000	1938-04-00		18900	Bd	25.30	Bd					
+USGS	02476000	1939-03-30		5850		22.81						
+USGS	02476000	1940-05-03		4350		22.33						
+USGS	02476000	1940-12-14		2040		20.54						
+USGS	02476000	1942-03-21		8890		23.59						
+USGS	02476000	1943-03-22		6060		23.02						
+USGS	02476000	1944-03-30		6090		22.89						
+USGS	02476000	1945-02-15		4140		21.04						
+USGS	02476000	1946-02-11		5820		22.87						
+USGS	02476000	1947-01-20		5490		22.70						
+USGS	02476000	1948-03-07		4950		22.31						
+USGS	02476000	1948-11-29		14700		24.63						
+USGS	02476000	1950-01-07		16300		24.85						
+USGS	02476000	1951-03-30		12600		24.30						
+USGS	02476000	1952-04-15		1080		13.82						
+USGS	02476000	1953-05-02		4850		21.74						
+USGS	02476000	1954-03-31		1580		14.72						
+USGS	02476000	1955-04-16		1960		15.91						
+USGS	02476000	1956-04-07		11300		24.08						
+USGS	02476000	1957-04-05		2390		16.97						
+USGS	02476000	1958-05-02		2720		17.64						
+USGS	02476000	1959-06-11		2190		16.47						
+USGS	02476000	1960-03-03		2240		15.40						
+USGS	02476000	1961-02-22		27000		26.14						
+USGS	02476000	1961-12-18		18300		25.23						
+USGS	02476000	1963-01-20		1260		11.18						
+USGS	02476000	1964-04-06		7120		22.20						
+USGS	02476000	1965-02-13		4750		19.09						
+USGS	02476000	1966-02-16		4990		19.49						
+USGS	02476000	1967-05-04		1150		9.61						
+USGS	02476000	1967-12-16		2640		14.09						
+USGS	02476000	1969-04-19		3530	6	16.26						
+USGS	02476000	1970-03-20		1730	6	11.53						
+USGS	02476000	1971-05-13		3090	6	15.69						
+USGS	02476000	1972-01-10		4180	6	17.95						
+USGS	02476000	1990-02-16		11700	6,7	24.12						

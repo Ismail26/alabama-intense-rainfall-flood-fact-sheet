@@ -1,0 +1,144 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:05:43 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03571800 BATTLE CREEK NEAR MONTEAGLE, TN
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03571800	1955-03-22		2780		7.15						
+USGS	03571800	1956-02-03		3830		8.29						
+USGS	03571800	1957-02-01		3280		7.74						
+USGS	03571800	1957-11-18		4750		9.09						
+USGS	03571800	1959-01-22		2910		7.33						
+USGS	03571800	1959-12-18		3150		7.59						
+USGS	03571800	1961-02-22		2950		7.36						
+USGS	03571800	1961-12-17		3200		7.65						
+USGS	03571800	1963-03-12		10200		12.20						
+USGS	03571800	1964-03-15		3130		7.58						
+USGS	03571800	1965-03-26		3450		7.91						
+USGS	03571800	1966-02-14		3440		7.89						
+USGS	03571800	1967-00-00		2700	4,Bm	7.02	4,Bm					
+USGS	03571800	1967-12-18		5030		9.31						
+USGS	03571800	1969-05-19		2880		7.26						
+USGS	03571800	1969-12-30		5550		9.73						
+USGS	03571800	1971-00-00		2700	4,Bm	7.02	4,Bm					
+USGS	03571800	1971-12-07		4100		8.54						
+USGS	03571800	1973-03-16		7000		10.64						
+USGS	03571800	1973-12-26		6250		10.17						
+USGS	03571800	1975-03-13		5030		9.31						
+USGS	03571800	1976-00-00		2700	4,Bm	7.02	4,Bm					
+USGS	03571800	1977-03-13		5200		9.43						
+USGS	03571800	1977-11-29		2770		7.16						
+USGS	03571800	1979-09-28		4750		9.09						
+USGS	03571800	1980-03-20		5750		9.83						
+USGS	03571800	1981-00-00		2700	4,Bm	7.00	4,Bm					
+USGS	03571800	1982-01-04		3230		7.71						
+USGS	03571800	1983-04-05		4750		9.09						
+USGS	03571800	1983-12-28		6710		10.46						
+USGS	03571800	1985-00-00		2660	4,Bm	7.00	4,Bm					
+USGS	03571800	1986-02-17		3080		7.49						
+USGS	03571800	1986-11-26		3460		7.91						
+USGS	03571800	1988-01-19		5730		9.81						
+USGS	03571800	1989-03-06		3450		7.90						
+USGS	03571800	1989-10-02		4220		8.63						
+USGS	03571800	1990-12-22		9800		12.03						
+USGS	03571800	1991-12-01		5280		9.48						
+USGS	03571800	1993-03-24		4510		8.87						
+USGS	03571800	1994-02-22		5260		9.47						
+USGS	03571800	1995-00-00		2660	4,Bm	7.00	4,Bm					
+USGS	03571800	1995-10-05		4010		8.45						
+USGS	03571800	1996-12-29		2880		7.27						
+USGS	03571800	1998-06-09		4260		8.67						
+USGS	03571800	1999-05-06		4140		8.56						
+USGS	03571800	2000-04-03		5080		9.32						
+USGS	03571800	2001-00-00		3190	4,Bm	7.62	4,Bm					
+USGS	03571800	2001-12-14		3360		7.80						
+USGS	03571800	2003-02-16		6090		10.06						
+USGS	03571800	2004-02-07		5180		9.40						
+USGS	03571800	2004-12-09		5860		9.90						
+USGS	03571800	2006-00-00		3170	4,Bm	7.69	4,Bm					
+USGS	03571800	2007-00-00		3170	4,Bm	7.59	4,Bm					
+USGS	03571800	2008-00-00		3170	4,Bm	7.59	4,Bm					
+USGS	03571800	2008-12-11		4260		8.67						
+USGS	03571800	2009-12-09		5030		9.28						
+USGS	03571800	2011-04-28		7990		11.19						
+USGS	03571800	2013-07-11		6320		10.21						
+USGS	03571800	2014-04-29		3320		7.76						
+USGS	03571800	2015-00-00		3200	4,Bm	7.63	4,Bm					
+USGS	03571800	2015-12-26		5160		9.38						
+USGS	03571800	2017-00-00		3210	4,Bm	7.64	Bm					
+USGS	03571800	2018-09-26		5690		9.78						
+USGS	03571800	2019-02-23	12:00	5030		9.28						
+USGS	03571800	2020-04-13		7520		10.95						
+USGS	03571800	2021-03-18	12:00	5860		9.90						
+USGS	03571800	2022-02-23	12:00	5250		9.45						
+USGS	03571800	2023-00-00	12:00	3210	2,4,Bm	7.64	4,Bm					
+USGS	03571800	2024-00-00	12:00	3210	2,4,Bm	7.64	4,Bm					
+USGS	03571800	2025-03-16	12:00	3650	2	8.11						

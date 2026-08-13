@@ -1,0 +1,105 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 14:58:21 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02340500 MOUNTAIN OAK CREEK NEAR HAMILTON, GA
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02340500	1944-04-27		4380		7.50	3					
+USGS	02340500	1945-05-13		1810		5.20	3					
+USGS	02340500	1946-01-07		4120		7.30	3					
+USGS	02340500	1947-04-02		2180		5.60	3					
+USGS	02340500	1948-07-11		11800		16.60	3	1919				
+USGS	02340500	1948-11-27		7490		12.10	3					
+USGS	02340500	1950-03-28		780		3.82	3					
+USGS	02340500	1951-04-23		462		3.14	3					
+USGS	02340500	1952-03-25		1220		4.40	3					
+USGS	02340500	1953-05-01		899		3.97	3					
+USGS	02340500	1953-12-05		2340		5.80	3					
+USGS	02340500	1955-04-14		630		3.50	3					
+USGS	02340500	1956-03-16		955		4.03	3					
+USGS	02340500	1957-04-05		2580		6.10	3					
+USGS	02340500	1957-11-19		1100		4.72	3					
+USGS	02340500	1959-02-04		515		2.55						
+USGS	02340500	1960-04-04		1840		4.18						
+USGS	02340500	1961-02-25		5200		6.80						
+USGS	02340500	1962-04-13		1520		3.85						
+USGS	02340500	1963-01-21		1260		3.55						
+USGS	02340500	1964-04-08		2960		4.92						
+USGS	02340500	1964-10-05		1380		3.63						
+USGS	02340500	1966-02-13		3690		5.37						
+USGS	02340500	1967-09-04		1130		3.40						
+USGS	02340500	1968-03-12		1560		3.81						
+USGS	02340500	1969-04-19		1360		3.66						
+USGS	02340500	1970-03-22		2530		4.59						
+USGS	02340500	1971-03-03		4710		5.95						
+USGS	02340500	1972-02-07		806		3.02						
+USGS	02340500	1972-12-16		2030		4.21						
+USGS	02340500	1990-03-17		4750	7	6.06						

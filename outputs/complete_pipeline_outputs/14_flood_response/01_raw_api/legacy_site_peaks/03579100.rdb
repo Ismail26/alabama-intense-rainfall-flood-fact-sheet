@@ -1,0 +1,133 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:06:12 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 03579100 ELK RIVER NEAR ESTILL SPRINGS, TN
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	03579100	1921-02-10		6000								
+USGS	03579100	1922-03-02		12400								
+USGS	03579100	1923-02-04		5320								
+USGS	03579100	1924-02-27		4120								
+USGS	03579100	1925-04-28		2490								
+USGS	03579100	1925-11-09		2510								
+USGS	03579100	1926-12-26		14800								
+USGS	03579100	1928-04-23		8060								
+USGS	03579100	1929-03-23		22900								
+USGS	03579100	1929-11-16		4930								
+USGS	03579100	1931-03-29		1360								
+USGS	03579100	1932-04-26		4100								
+USGS	03579100	1933-02-15		8960								
+USGS	03579100	1934-03-03		11500								
+USGS	03579100	1935-03-13		6240								
+USGS	03579100	1936-03-25		5260								
+USGS	03579100	1937-01-03		7050								
+USGS	03579100	1938-04-23		4280								
+USGS	03579100	1939-02-04		13500								
+USGS	03579100	1940-03-14		3000								
+USGS	03579100	1941-04-05		3480								
+USGS	03579100	1942-03-17		2520								
+USGS	03579100	1942-12-29		14400								
+USGS	03579100	1944-03-29		8440								
+USGS	03579100	1945-05-13		8280								
+USGS	03579100	1946-01-08		15200								
+USGS	03579100	1947-01-20		5800								
+USGS	03579100	1948-02-13		16400								
+USGS	03579100	1949-01-06		18500								
+USGS	03579100	1950-01-20		10800								
+USGS	03579100	1951-02-02		12400								
+USGS	03579100	1951-12-22		2980	6							
+USGS	03579100	1953-02-12		5180	6							
+USGS	03579100	1954-01-22		9310	6							
+USGS	03579100	1955-03-21		7520	6							
+USGS	03579100	1956-02-04		5480	6							
+USGS	03579100	1957-02-01		12500	6							
+USGS	03579100	1959-12-19		5330	6							
+USGS	03579100	1961-03-08		11000	6							
+USGS	03579100	1962-02-28		8210	6							
+USGS	03579100	1963-03-12		19100	6							
+USGS	03579100	1964-03-15		10400	6							
+USGS	03579100	1965-03-26		9920	6							
+USGS	03579100	1966-05-01		8910	6							
+USGS	03579100	1967-03-07		4280	6	8.87						
+USGS	03579100	1967-12-19		6940	6	11.60						
+USGS	03579100	1969-02-02		7480	6	12.05						
+USGS	03579100	1969-12-30		12100	6	15.21						
+USGS	03579100	1971-01-24		5850	6	10.63						
+USGS	03579100	1972-07-28		3350	6	7.78						
+USGS	03579100	1973-03-16		38100	6	20.33						
+USGS	03579100	1974-01-11		19000	6	16.47						
+USGS	03579100	1975-03-14		17400	6	15.94						
+USGS	03579100	1975-10-18		7720	6	11.61						
+USGS	03579100	1977-04-04		30100	6	19.00						
+USGS	03579100	1977-11-29		6090	6	10.46						
+USGS	03579100	1979-03-04		6850	6	11.03						
+USGS	03579100	1980-03-21		17100	6	15.81						
+USGS	03579100	1981-03-30		1990	6	5.98						

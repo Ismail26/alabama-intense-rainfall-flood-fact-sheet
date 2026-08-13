@@ -1,0 +1,171 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:02:02 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02420000 ALABAMA RIVER NEAR MONTGOMERY, AL.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02420000	1886-04-01		322000	7	62.70		1814				
+USGS	02420000	1888-03-03		283000	7	60.60						
+USGS	02420000	1928-04-25		134000		47.10						
+USGS	02420000	1929-03-17		256000		59.60						
+USGS	02420000	1929-11-19		132000		50.10						
+USGS	02420000	1930-11-19		72500		26.20						
+USGS	02420000	1932-02-24		93300		34.00						
+USGS	02420000	1932-12-31		150000		52.00						
+USGS	02420000	1934-03-06		111000		39.40						
+USGS	02420000	1935-03-09		91100		32.70						
+USGS	02420000	1936-02-08		196000		55.30						
+USGS	02420000	1937-05-07		107000		40.40						
+USGS	02420000	1938-04-10		214000		56.80						
+USGS	02420000	1939-08-18		123000		46.10						
+USGS	02420000	1940-03-16		81600		31.00						
+USGS	02420000	1941-03-09		37100		14.40						
+USGS	02420000	1942-03-23		114000		42.90						
+USGS	02420000	1943-03-23		164000		53.50						
+USGS	02420000	1944-04-29		141000		50.40						
+USGS	02420000	1945-02-22		92000		34.30						
+USGS	02420000	1946-01-09		130000		47.20						
+USGS	02420000	1947-01-23		139000		49.10						
+USGS	02420000	1948-02-15		101000		37.50						
+USGS	02420000	1948-12-01		234000		58.20						
+USGS	02420000	1950-03-17		80600		29.20						
+USGS	02420000	1951-04-01		137000		45.60						
+USGS	02420000	1952-03-27		103000		36.80						
+USGS	02420000	1953-05-08		113000					1953-05-09		38.90	
+USGS	02420000	1954-01-25		79000		28.50						
+USGS	02420000	1955-04-15		109000		38.80						
+USGS	02420000	1956-03-17		122000		40.60	2		1956-03-18		41.20	
+USGS	02420000	1957-04-07		139000					1957-04-08		49.60	
+USGS	02420000	1958-03-10		85000		34.90						
+USGS	02420000	1959-02-17		57200		21.50						
+USGS	02420000	1960-04-06		84500		33.60						
+USGS	02420000	1961-02-26		283000		60.50						
+USGS	02420000	1961-12-20		149000		50.76						
+USGS	02420000	1963-05-04		94300		35.44						
+USGS	02420000	1964-04-10		179000		54.67						
+USGS	02420000	1965-02-14		79000		29.95						
+USGS	02420000	1966-02-18		115000		42.80						
+USGS	02420000	1967-08-28		71600		27.30						
+USGS	02420000	1968-01-12		82800		31.30						
+USGS	02420000	1969-05-22		83000		31.39						
+USGS	02420000	1970-03-24		114000		42.49						
+USGS	02420000	1971-03-06		156000		46.65						
+USGS	02420000	1972-01-11		195000	1				1972-01-12		44.17	
+USGS	02420000	1973-04-01		133000	1				1973-04-02		42.33	
+USGS	02420000	1974-01-01		111000	1				1974-01-02		42.29	
+USGS	02420000	1975-04-03		154000	1							
+USGS	02420000	1976-04-01		140000		44.71						
+USGS	02420000	1977-04-07		150000	1				1977-04-01		43.58	
+USGS	02420000	1978-01-28		131000	1				1978-01-27		40.42	
+USGS	02420000	1979-04-16		260000		54.50						
+USGS	02420000	1980-03-30		169000	1				1980-03-31		44.78	
+USGS	02420000	1981-04-02		123000	1	38.13						
+USGS	02420000	1982-02-04		135000	1	42.45						
+USGS	02420000	1983-04-10		150000	1	44.35						
+USGS	02420000	1983-12-05		116000	1				1983-12-07		41.16	
+USGS	02420000	1985-02-07		95000	1	36.36						
+USGS	02420000	1986-03-21		68000	1	31.12						
+USGS	02420000	1987-03-02		105000	1	37.82						
+USGS	02420000	1988-01-21		82000	1	33.87						
+USGS	02420000	1989-06-23		152000	1	44.80						
+USGS	02420000	1990-03-19		290000		56.50						
+USGS	02420000	1991-03-31		90000		35.05						
+USGS	02420000	1992-02-27		84000		34.36						
+USGS	02420000	1992-12-18		95000		36.35						
+USGS	02420000	1994-04-17		90000		35.19						
+USGS	02420000	1995-03-08		108000		37.44						
+USGS	02420000	1996-03-09		138000		42.00						
+USGS	02420000	1997-03-01		110000		37.94						
+USGS	02420000	1998-03-11		152000		44.57						
+USGS	02420000	1999-01-31		94000		35.44						
+USGS	02420000	2000-04-06		96000		35.70						
+USGS	02420000	2001-03-22		128000		40.09						
+USGS	02420000	2003-05-11		155000		42.22						
+USGS	02420000	2004-09-17		88300		34.02						
+USGS	02420000	2005-04-02		153000					2005-04-03		43.94	
+USGS	02420000	2006-03-22		68600		31.94						
+USGS	02420000	2006-11-16		61600		30.82						
+USGS	02420000	2008-08-27		71900		31.50						
+USGS	02420000	2009-03-28		117000		37.42						
+USGS	02420000	2010-03-12		135000		41.30						
+USGS	02420000	2011-03-10		114000		37.22						
+USGS	02420000	2012-03-04		76100		31.40	2		2012-03-04	1200	32.25	
+USGS	02420000	2013-02-13	21:30	109000		36.95						
+USGS	02420000	2014-04-09		131000		41.52						
+USGS	02420000	2015-01-05		98300		35.62						
+USGS	02420000	2015-12-27		176000		45.82						
+USGS	02420000	2017-06-24		106000		36.05	2		2017-06-25		36.26	
+USGS	02420000	2018-02-13	14:30	94600					2018-02-13	1330	33.93	
+USGS	02420000	2018-12-31	14:30	124000					2018-12-31	0230	39.27	
+USGS	02420000	2020-02-22	10:00	165000					2020-03-07	0530	44.49	
+USGS	02420000	2021-05-07	04:30	118000					2021-05-06	1130	36.76	
+USGS	02420000	2022-02-06	20:30	113000					2022-02-06	2230	37.43	
+USGS	02420000	2023-03-28	03:45	127000					2023-03-28	0815	38.16	

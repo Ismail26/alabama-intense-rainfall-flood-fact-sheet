@@ -1,0 +1,2 @@
+year,error
+2011,ValueError: All-NaN slice encountered

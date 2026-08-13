@@ -1,0 +1,117 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 14:59:54 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02376033 ESCAMBIA RIVER NR MOLINO, FLA.
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02376033	1979-03-07		43200		9.88						
+USGS	02376033	1980-04-17		50800		10.85						
+USGS	02376033	1981-02-14		52300		11.04						
+USGS	02376033	1984-05-24		33600		8.45						
+USGS	02376033	1985-02-10		28600		7.88						
+USGS	02376033	1986-03-23		35100		8.65						
+USGS	02376033	1987-03-05		21700		7.13						
+USGS	02376033	1988-09-14		27200		7.72						
+USGS	02376033	1989-06-20		44600		9.85						
+USGS	02376033	1990-03-23		113000		15.72						
+USGS	02376033	1991-03-06		28800		8.48						
+USGS	02376033	1992-01-17		25300		7.94						
+USGS	02376033	1992-12-21		31100		8.82						
+USGS	02376033	1994-07-17		44500		10.48						
+USGS	02376033	1997-02-27		22400		7.44						
+USGS	02376033	1998-03-11		102000		15.07						
+USGS	02376033	1998-10-01		104000		15.22						
+USGS	02376033	2000-03-30		7200		4.07						
+USGS	02376033	2001-03-12		55800		11.63						
+USGS	02376033	2002-09-29		21000		7.21						
+USGS	02376033	2003-07-05		34500		9.30						
+USGS	02376033	2004-09-20	22:15	39300	R	9.89						
+USGS	02376033	2005-04-10	00:30	52900	R	11.36						
+USGS	02376033	2006-03-04	03:00	18200	R	6.29						
+USGS	02376033	2007-04-06	14:30	25900	R	7.80						
+USGS	02376033	2008-02-06		27300	R	8.01						
+USGS	02376033	2009-04-07	08:15	34500	R	10.05	2		2009-04-07		10.22	
+USGS	02376033	2009-12-18	10:45	66700	R	13.74						
+USGS	02376033	2011-03-15	05:00	17100	R	7.05						
+USGS	02376033	2012-02-23	19:00	17200	R	7.06						
+USGS	02376033	2013-03-02	02:00	25600	R	8.79						
+USGS	02376033	2014-04-16	15:15	33100	R	10.00	2		2014-04-16	1200	10.01	
+USGS	02376033	2015-04-23	20:30	18200	R	7.30						
+USGS	02376033	2016-01-01		50100	R	12.22						
+USGS	02376033	2017-06-25	15:15	37600	R	10.66						
+USGS	02376033	2017-10-28	08:00	15900	R	6.76						
+USGS	02376033	2019-01-07	07:45	29600	R	9.46						
+USGS	02376033	2020-01-19	05:45	68100	R							
+USGS	02376033	2021-04-15	23:15	18800		7.28						
+USGS	02376033	2021-10-09	14:45	31800		9.65						
+USGS	02376033	2023-06-24	00:15	20700		7.65						
+USGS	02376033	2024-03-18	04:15	9970		7.64						
+USGS	02376033	2025-04-10	18:29	10000								

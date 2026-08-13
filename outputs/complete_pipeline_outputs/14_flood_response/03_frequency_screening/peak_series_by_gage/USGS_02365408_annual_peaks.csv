@@ -1,0 +1,5 @@
+monitoring_location_id,site_no,site_name,site_type_code,huc12,hydrologic_unit_code,drainage_area_sqmi,contributing_drainage_area_sqmi,water_year,peak_time,peak_cfs,peak_cfs_per_sqmi,unit_of_measure,qualifier,qualifier_text,has_qualifier,peak_since,duplicate_count,descending_rank,empirical_aep,empirical_return_period_years,empirical_flood_class,lp3_return_period_years,lp3_flood_class,primary_screening_return_period_years,primary_flood_class
+USGS-02365408,02365408,,ST,031402030201,03140203,0.08,,2004.0,2004-07-18 00:00:00+00:00,18.0,225.0,ft3/s,,,False,,1.0,3,0.6,1.6666666666666667,<2-year,,Insufficient record,1.6666666666666667,<2-year
+USGS-02365408,02365408,,ST,031402030201,03140203,0.08,,2005.0,2005-04-01 00:00:00+00:00,36.0,450.0,ft3/s,,,False,,1.0,1,0.2,5.0,5–10-year,,Insufficient record,5.0,5–10-year
+USGS-02365408,02365408,,ST,031402030201,03140203,0.08,,2006.0,2006-02-25 00:00:00+00:00,5.0,62.5,ft3/s,,,False,,1.0,4,0.8,1.25,<2-year,,Insufficient record,1.25,<2-year
+USGS-02365408,02365408,,ST,031402030201,03140203,0.08,,,,23.0,287.5,ft3/s,Bm,Bm,True,,,2,0.4,2.5,2–5-year,,Insufficient record,2.5,2–5-year

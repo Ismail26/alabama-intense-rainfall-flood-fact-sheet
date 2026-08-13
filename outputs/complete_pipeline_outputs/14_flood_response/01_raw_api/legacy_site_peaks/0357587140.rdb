@@ -1,0 +1,101 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:06:00 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 0357587140 EAST FORK PINHOOK CR AT WINCHESTER RD AT HUNTSVIL
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	0357587140	1996-10-22		125	C	7.15						
+USGS	0357587140	1997-10-26		313	C	7.88						
+USGS	0357587140	1999-01-22		322	C	7.91						
+USGS	0357587140	2000-04-03		417	C	8.19						
+USGS	0357587140	2001-08-10		250	C	7.65						
+USGS	0357587140	2001-12-13		228	C	7.57						
+USGS	0357587140	2003-05-06		437	C	8.25						
+USGS	0357587140	2006-09-10		152	C	7.27						
+USGS	0357587140	2007-04-14		314	C	7.87						
+USGS	0357587140	2008-03-04		447	C	8.28						
+USGS	0357587140	2008-12-10		600	C	8.67						
+USGS	0357587140	2009-12-08		795	C	9.14						
+USGS	0357587140	2011-04-27		1620	C	10.85						
+USGS	0357587140	2012-01-23		1030	C	9.65						
+USGS	0357587140	2013-05-06	12:40	197	C	7.45						
+USGS	0357587140	2013-12-22		646	C	8.79						
+USGS	0357587140	2015-04-16		417	C	8.19						
+USGS	0357587140	2015-12-25		724	C	8.98						
+USGS	0357587140	2017-07-04		400	C	8.13						
+USGS	0357587140	2018-02-28	19:50	358	C	8.01						
+USGS	0357587140	2019-02-23	20:10	1020	C	9.64						
+USGS	0357587140	2020-04-12	20:30	759	C	9.06						
+USGS	0357587140	2021-09-19	14:35	450	C	8.29						
+USGS	0357587140	2022-01-01	22:00	719	C	8.97						
+USGS	0357587140	2023-03-02	00:10	583	2,C	8.63	5					
+USGS	0357587140	2024-05-08	22:32	1040	2,C	9.68	5					
+USGS	0357587140	2025-05-20	19:30	281	C	7.76						

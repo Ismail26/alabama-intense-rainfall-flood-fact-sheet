@@ -1,0 +1,132 @@
+#
+# U.S. Geological Survey
+# National Water Information System
+# Retrieved: 2026-07-23 15:04:37 EDT
+#
+# ---------------------------------- WARNING ----------------------------------------
+# Some of the data that you have obtained from this U.S. Geological Survey database
+# may not have received Director's approval. Any such data values are qualified
+# as provisional and are subject to revision. Provisional data are released on the
+# condition that neither the USGS nor the United States Government may be held liable
+# for any damages resulting from its use.
+#
+# More data may be available offline.
+# For more information on these data,  contact  USGS Water Data Inquiries.
+# This file contains the annual peak streamflow data.
+#
+# This information includes the following fields:
+#
+#  agency_cd     Agency Code
+#  site_no       USGS station number
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)
+#  peak_va       Annual peak streamflow value in cfs
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)
+#  gage_ht       Gage height for the associated peak streamflow in feet
+#  gage_ht_cd    Gage height qualification codes
+#  year_last_pk  Peak streamflow reported is the highest since this year
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak
+#  ag_gage_ht_cd maximum Gage height code
+#
+# Sites in this file include:
+#  USGS 02473460 TALLAHALA CREEK AT WALDRUP, MS
+#
+# Peak Streamflow-Qualification Codes(peak_cd):
+#   1 ... Discharge is a Maximum Daily Average
+#   2 ... Discharge is an Estimate
+#   3 ... Discharge affected by Dam Failure
+#   4 ... Discharge less than indicated value,
+#           which is Minimum Recordable Discharge at this site
+#   5 ... Discharge affected to unknown degree by
+#           Regulation or Diversion
+#   6 ... Discharge affected by Regulation or Diversion
+#   7 ... Discharge is an Historic Peak
+#   8 ... Discharge actually greater than indicated value
+#   9 ... Discharge due to Snowmelt, Hurricane,
+#           Ice-Jam or Debris Dam breakup
+#   A ... Year of occurrence is unknown or not exact
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   C ... All or part of the record affected by Urbanization,
+#            Mining, Agricultural changes, Channelization, or other
+#   F ... Peak supplied by another agency
+#   O ... Opportunistic value not from systematic data collection
+#   R ... Revised
+#
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):
+#   1 ... Gage height affected by backwater
+#   2 ... Gage height not the maximum for the year
+#   3 ... Gage height at different site and(or) datum
+#   4 ... Gage height below minimum recordable elevation
+#   5 ... Gage height is an estimate
+#   6 ... Gage datum changed during this year
+#   7 ... Debris, mud, or hyper-concentrated flow
+#   8 ... Gage height tidally affected
+#   Bd ... Day of occurrence is unknown or not exact
+#   Bm ... Month of occurrence is unknown or not exact
+#   F ... Peak supplied by another agency
+#   R ... Revised
+#
+#
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s
+USGS	02473460	1961-02-22		11200	7	21.61						
+USGS	02473460	1964-04-06	12:00	22000	7	23.37						
+USGS	02473460	1969-04-14		11800		21.77						
+USGS	02473460	1970-03-24		1700		17.43						
+USGS	02473460	1971-02-21		7600		20.53						
+USGS	02473460	1972-01-10		2000		17.66						
+USGS	02473460	1973-03-31		7150		20.34						
+USGS	02473460	1974-04-13		17900		23.18		1961				
+USGS	02473460	1975-02-16		3950		18.92						
+USGS	02473460	1976-03-31		7900		20.60						
+USGS	02473460	1977-04-22		7120		20.33						
+USGS	02473460	1978-01-26		2420		17.94						
+USGS	02473460	1979-04-04		12300		21.87						
+USGS	02473460	1980-04-12		6450		20.06						
+USGS	02473460	1981-03-31		3630		18.75						
+USGS	02473460	1982-02-17		3350		18.59						
+USGS	02473460	1983-03-06		7220		20.36						
+USGS	02473460	1984-03-06		3170		18.48						
+USGS	02473460	1984-10-22		3180		18.49						
+USGS	02473460	1985-10-29		2970		18.42						
+USGS	02473460	1987-01-18		8610		20.98						
+USGS	02473460	1988-09-05		4260		19.21						
+USGS	02473460	1989-01-01		5340		19.80						
+USGS	02473460	1990-02-16		17700		22.79						
+USGS	02473460	1991-04-30		7080		19.92						
+USGS	02473460	1992-03-19		2650		17.69						
+USGS	02473460	1993-01-12		7400		20.29						
+USGS	02473460	1994-01-28		10200		20.95						
+USGS	02473460	1995-04-24		5240		19.53						
+USGS	02473460	1996-02-03		3330		18.63						
+USGS	02473460	1997-04-28		8180		20.47						
+USGS	02473460	1998-01-07		9970		20.91						
+USGS	02473460	1999-01-31		6610		20.37						
+USGS	02473460	2000-04-04		2930		18.39						
+USGS	02473460	2001-09-02		11500		21.23						
+USGS	02473460	2002-09-27		3940		18.96						
+USGS	02473460	2003-02-22		6510		19.98						
+USGS	02473460	2004-02-06		18900		23.17						
+USGS	02473460	2005-08-30		5810		19.97						
+USGS	02473460	2006-03-21		5390		19.80						
+USGS	02473460	2007-01-01		2200		17.93						
+USGS	02473460	2008-02-23		5360		20.26						
+USGS	02473460	2009-03-28		3730		19.49						
+USGS	02473460	2010-02-05		4510		18.87						
+USGS	02473460	2011-03-09		12700		22.69						
+USGS	02473460	2012-03-22	23:45	6450		20.83						
+USGS	02473460	2013-02-13	04:00	6940		20.38						
+USGS	02473460	2014-04-07	08:15	12400		21.88						
+USGS	02473460	2015-01-04	14:15	12200		21.83						
+USGS	02473460	2016-03-11	17:00	12800		21.98						
+USGS	02473460	2017-04-04	01:30	5600		20.60						
+USGS	02473460	2018-03-07	08:00	2820		18.94						
+USGS	02473460	2018-12-28	19:00	5890		20.73						
+USGS	02473460	2020-01-15	14:00	4770		20.19						
+USGS	02473460	2021-03-26	05:30	5430		20.52						
+USGS	02473460	2022-08-25		6460		20.97						
+USGS	02473460	2023-02-17	10:30	4400		19.99						
+USGS	02473460	2024-05-18	12:00	10500		22.30						

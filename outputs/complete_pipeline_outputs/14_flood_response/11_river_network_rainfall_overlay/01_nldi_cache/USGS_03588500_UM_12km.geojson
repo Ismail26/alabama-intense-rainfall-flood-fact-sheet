@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "USGS_03588500_UM_12km",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "site_no": "03588500", "nhdplus_comid": "19577853", "navigation_mode": "UM", "requested_distance_km": 12.0, "start_source": "nwissite", "start_id": "USGS-03588500", "geometry_length_km": 0.10199960542641763 }, "geometry": { "type": "LineString", "coordinates": [ [ -87.578609802, 35.025026999 ], [ -87.578777105, 35.0248667 ], [ -87.578765285, 35.024164916 ] ] } }
+]
+}
